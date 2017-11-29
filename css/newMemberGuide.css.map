@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": ";AACA,YAAY;AACZ,aAAc;EACZ,OAAO,EAAE,WAAW;EACpB,OAAO,EAAE,QAAQ;EACjB,OAAO,EAAE,WAAW;EACpB,OAAO,EAAE,SAAS;EAClB,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,IAAI;;AAEf,aAAa;AACb,QAAQ;EACL,MAAM,EAAE,IAAI;;AAEf,UAAW;EACT,KAAK,EAAE,IAAI",
-"sources": ["../sass/newMemberGuide.scss"],
-"names": [],
-"file": "newMemberGuide.css"
-}
