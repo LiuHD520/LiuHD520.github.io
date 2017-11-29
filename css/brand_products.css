@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/*** 公共 ***/
+.display_flex, .brand_products .brand, .brand_products .brand .Binfor, .brand_products .brand .collection {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/*** own ***/
+.brand_products .brand {
+  font-size: 0.8rem;
+  height: 3.5rem;
+  padding-left: 0.5rem;
+  width: 100%;
+  background: #f5a19f;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  -o-box-align: center;
+  box-align: center;
+  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
+  -o-box-pack: justify;
+  box-pack: justify;
+  justify-content: space-between;
+  align-items: center; }
+  .brand_products .brand .Binfor {
+    align-items: center;
+    color: #fff; }
+    .brand_products .brand .Binfor img {
+      display: block;
+      height: 2.5rem;
+      width: 2.5rem;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      border-radius: 100%; }
+    .brand_products .brand .Binfor p {
+      padding-left: 0.5rem; }
+      .brand_products .brand .Binfor p span {
+        display: block; }
+  .brand_products .brand .collection {
+    width: 25%;
+    height: 100%;
+    font-size: 0.7rem;
+    padding-right: 0.5rem;
+    background: #f8ecec;
+    position: relative;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    -moz-box-pack: end;
+    -webkit-box-pack: end;
+    -o-box-pack: end;
+    box-pack: end;
+    align-items: center;
+    justify-content: flex-end; }
+    .brand_products .brand .collection::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 3.5rem solid #f8ecec;
+      border-left: 3.5rem solid transparent;
+      position: absolute;
+      left: -3.5rem; }
+    .brand_products .brand .collection button {
+      color: #fff;
+      background: #EA5E5D;
+      -moz-border-radius: 20px;
+      -webkit-border-radius: 20px;
+      border-radius: 20px;
+      padding: 0.2rem 0.5rem; }
+.brand_products .product_list {
+  padding-top: 5.5rem; }
+.brand_products .position_fixed {
+  top: 2.2rem; }
+
+/*# sourceMappingURL=brand_products.css.map */

@@ -1,0 +1,30 @@
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.content {
+  padding-top: 0.5rem; }
+  .content .all-question {
+    list-style: none;
+    background: white; }
+    .content .all-question li {
+      padding: 0.5rem 0.5rem 0.2rem 0.8rem;
+      border-bottom: 1px solid #eeeeee;
+      color: #222222;
+      font-size: 0.75rem; }
+      .content .all-question li span {
+        width: 90%;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .content .all-question li p {
+        float: right; }
+        .content .all-question li p .svgIcon {
+          font-size: 1rem;
+          color: #d6d6d6;
+          position: relative;
+          top: 0.1rem; }
+
+/*# sourceMappingURL=all_question.css.map */

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/*** 公共 ***/
+.display_flex, .reviews .rated dl, .reviews .rated ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/*** own ***/
+.reviews {
+  background: #f5f5f5; }
+  .reviews .rated {
+    margin-bottom: 1rem;
+    background: #fff;
+    padding: 0.5rem; }
+    .reviews .rated dl {
+      align-items: stretch; }
+      .reviews .rated dl dt {
+        width: 30%; }
+        .reviews .rated dl dt img {
+          width: 100%; }
+      .reviews .rated dl dd {
+        width: 70%;
+        padding-left: 0.3rem; }
+        .reviews .rated dl dd textarea {
+          width: 100%;
+          height: 4rem;
+          border: none; }
+    .reviews .rated ul {
+      padding: 0.2rem 0; }
+      .reviews .rated ul li {
+        position: relative;
+        width: 4rem;
+        height: 4rem;
+        border: 1px solid #EAECE7;
+        margin-right: 0.1rem; }
+        .reviews .rated ul li span {
+          position: absolute;
+          right: 0;
+          top: -5px; }
+          .reviews .rated ul li span .iconfont {
+            font-size: 0.85rem; }
+        .reviews .rated ul li img {
+          width: 100%;
+          height: 100%; }
+      .reviews .rated ul .upload {
+        padding: 0; }
+        .reviews .rated ul .upload strong {
+          display: block;
+          font-weight: normal;
+          padding: 28% 0 0 30%; }
+          .reviews .rated ul .upload strong .svgIcon {
+            font-size: 1.5rem;
+            color: #81848D; }
+    .reviews .rated ol {
+      padding-top: 0.5rem; }
+      .reviews .rated ol li {
+        float: left;
+        height: auto;
+        line-height: normal;
+        color: #ccc; }
+        .reviews .rated ol li .iconfont {
+          font-size: 1.3rem; }
+      .reviews .rated ol .chosen {
+        color: #FF5000; }
+      .reviews .rated ol::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+
+/*# sourceMappingURL=reviews.css.map */

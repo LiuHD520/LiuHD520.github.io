@@ -1,0 +1,139 @@
+@charset "utf-8";
+/*** 公共 ***/
+.display_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.personal-information {
+    .user-header {
+      border-top: 1px solid #c2c2c2;
+      font-size: 0.72rem;
+      padding: 0.5rem 0.5rem;
+      background: white;
+      position: relative;
+      strong {
+        float: left;
+        font-weight: 500;
+        position: relative;
+        top: 0.7rem;
+      }
+      span {
+        float: right;
+        position: relative;
+        overflow: hidden;
+        img {
+          float: left;
+          display: block;
+          width: 2.5rem;
+          height: 2.5rem;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          margin-right: 0.3rem;
+        }
+        p {
+          float: right;
+          position: relative;
+          top: 0.7rem;
+          .svgIcon {
+            font-size: 1rem;
+            color: #cacaca;
+          }
+        }
+        #form_pic_file {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0.8rem;
+          opacity: 0;
+        }
+        &::after {
+          content: ".";
+          display: block;
+          height: 0;
+          clear: both;
+          visibility: hidden;
+        }
+      }
+      &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+    }
+   /***********user-info****************/
+  .user-info {
+    margin-top: 0.5rem;
+    background: white;
+    ul {
+      list-style: none;
+      li {
+        padding: 0.5rem;
+        color: #222222;
+        font-size: 0.7rem;
+        border-bottom: 1px solid #eeeeee;
+        span {
+          margin-left: 1.2rem;
+          strong {
+            font-weight: 600;
+            .svgIcon {
+              font-size: 0.8rem;
+            }
+          }
+          strong:last-child {
+            font-weight: 600;
+            .svgIcon {
+              font-size: 0.85rem;
+            }
+          }
+          .nvcolor {
+            color: #ff99ac;
+          }
+          .mancolor {
+            color: #00a0e9;
+          }
+          u {
+            text-decoration: none;
+            padding: 0 0.3rem;
+            color: #cdcdcd;
+          }
+        }
+        p{
+          float: right;
+          font-size: 0.8rem;
+          color: #cdcdcd;
+        }
+      }
+    }
+  }
+  /***************保存******************/
+  .info-save {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    .save-info {
+      background: #f64d6c;
+      color: white;
+      font-size: 0.7rem;
+      width: 76%;
+      height: 1.8rem;
+      line-height: 1.8rem;
+      text-align: center;
+      -moz-border-radius: 0.9rem;
+      -webkit-border-radius: 0.9rem;
+      border-radius: 0.9rem;
+    }
+  }
+}

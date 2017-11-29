@@ -1,0 +1,149 @@
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.details-problem .details-problem-header {
+  padding: 0.7rem 0.8rem;
+  padding-right: 0.5rem;
+  background: #fff; }
+  .details-problem .details-problem-header img {
+    float: left;
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem; }
+  .details-problem .details-problem-header strong {
+    float: left;
+    color: #222222;
+    font-size: 0.8rem;
+    width: 81%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 0.8rem;
+    position: relative;
+    top: 0.2rem; }
+  .details-problem .details-problem-header span {
+    float: right;
+    padding-left: 0.1rem;
+    position: relative;
+    top: 0.2rem; }
+    .details-problem .details-problem-header span .svgIcon {
+      font-size: 1.2rem; }
+  .details-problem .details-problem-header::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+.details-problem .questions-and-answers {
+  padding: 0.7rem 0.8rem;
+  padding-bottom: 0; }
+  .details-problem .questions-and-answers .questions {
+    padding: 0.75rem 0.9rem;
+    background: #fff; }
+    .details-problem .questions-and-answers .questions p .svgIcon {
+      color: #fa4f71;
+      font-size: 1.2rem; }
+    .details-problem .questions-and-answers .questions p span {
+      padding-left: 0.2rem;
+      font-size: 0.7rem;
+      color: #acacac;
+      line-height: 0.8rem;
+      position: relative;
+      top: -0.15rem; }
+    .details-problem .questions-and-answers .questions h4 {
+      font-weight: 500; }
+      .details-problem .questions-and-answers .questions h4 button {
+        font-size: 0.72rem;
+        color: #888888;
+        border: 1px solid #888888;
+        padding: 0.05rem 0.2rem;
+        border-radius: 0.3rem;
+        float: right;
+        background: #fff; }
+      .details-problem .questions-and-answers .questions h4::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+  .details-problem .questions-and-answers .answers {
+    padding: 0.6rem 0.9rem;
+    background: #fff;
+    margin-top: 0.4rem; }
+    .details-problem .questions-and-answers .answers h5 {
+      font-weight: 500;
+      padding-bottom: 0.5rem; }
+      .details-problem .questions-and-answers .answers h5 .svgIcon {
+        font-size: 1.2rem; }
+      .details-problem .questions-and-answers .answers h5 span {
+        padding-left: 0.4rem;
+        font-size: 0.7rem;
+        color: #acacac;
+        position: relative;
+        top: -0.2rem; }
+    .details-problem .questions-and-answers .answers dl {
+      padding: 1rem 0;
+      border-top: 1px solid #d9d9d9; }
+      .details-problem .questions-and-answers .answers dl dt {
+        width: 16%;
+        float: left; }
+        .details-problem .questions-and-answers .answers dl dt img {
+          display: block;
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%; }
+      .details-problem .questions-and-answers .answers dl dd {
+        float: left;
+        width: 84%;
+        padding-left: 0.2rem; }
+        .details-problem .questions-and-answers .answers dl dd h4 {
+          width: 100%;
+          position: relative; }
+          .details-problem .questions-and-answers .answers dl dd h4 p {
+            width: 50%; }
+            .details-problem .questions-and-answers .answers dl dd h4 p strong {
+              display: block;
+              font-size: 0.78rem;
+              color: #222222; }
+              .details-problem .questions-and-answers .answers dl dd h4 p strong button {
+                color: #fff;
+                font-weight: 500;
+                font-size: 0.65rem;
+                padding: 0 0.1rem;
+                background: #04b4ff;
+                border-radius: 0.2rem;
+                margin-left: 0.2rem; }
+            .details-problem .questions-and-answers .answers dl dd h4 p i {
+              font-size: 0.7rem;
+              color: #adadad;
+              font-style: normal;
+              font-weight: 500; }
+          .details-problem .questions-and-answers .answers dl dd h4 u {
+            position: absolute;
+            right: 0;
+            top: 0.8rem;
+            text-decoration: none; }
+        .details-problem .questions-and-answers .answers dl dd h6 {
+          padding-top: 1rem;
+          font-size: 0.85rem;
+          font-weight: 500; }
+          .details-problem .questions-and-answers .answers dl dd h6 strong {
+            display: inline-block;
+            width: 80%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+          .details-problem .questions-and-answers .answers dl dd h6 p {
+            float: right; }
+      .details-problem .questions-and-answers .answers dl::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .details-problem .questions-and-answers .answers dl:last-child {
+      border-bottom: 1px solid #d9d9d9; }
+
+/*# sourceMappingURL=detailsProblem.css.map */

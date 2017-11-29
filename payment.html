@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>支付页面</title>
+    <link rel="shortcut icon" href="/img/baai_logo_icon.ico" />
+    <!--global-->
+    <link rel="stylesheet" href="/frame/sm.min.css">
+    <link rel="stylesheet" href="/css/global.css" />
+    <!--own-->
+    <link rel="stylesheet" href="/css/payment.css" />
+</head>
+<body>
+<div class="page-group">
+    <!-- 页头 -->
+    <header class="bar bar-nav">
+        <h6 class="pull-left" onClick="javascript:window.location.href = 'order_customer.html#0';"><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-fanhui"></use></svg></h6>
+        <h1 class="title">支付订单</h1>
+    </header>
+    <!-- 页尾 -->
+    <footer class="bar bar-tab">
+        <div class="baai_money">
+            <p>八爱币：<strong>0</strong>个</p>
+            <span class=""><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-weixuanze"></use></svg></span>
+        </div>
+        <div class="paytype">
+            <dl style="width: 100%;">
+                <dt>
+                <p><svg class="svgIcon icon-zhifubao" aria-hidden="true"><use xlink:href="#icon-chongzhizhifubao"></use></svg></p>
+                <p class="pay">支付宝</p>
+                </dt>
+                <dd>
+                    <svg class="svgIcon check selected" aria-hidden="true"><use xlink:href="#icon-yixuanze"></use></svg>
+                </dd>
+            </dl>
+            <dl class="weixinpay" style="width:0%; display: none;">
+                <dt>
+                <p><svg class="svgIcon icon-weixin" aria-hidden="true"><use xlink:href="#icon-weixinzhifu"></use></svg></p>
+                <p class="pay">微信支付</p>
+                </dt>
+                <dd>
+                    <svg class="svgIcon check" aria-hidden="true"><use xlink:href="#icon-yixuanze"></use></svg>
+                </dd>
+            </dl>
+        </div>
+        <button>去支付</button>
+    </footer>
+    <!-- 内容区 -->
+    <div class="content payment">
+        <div class="customer_infor">
+            <ul>
+                <li>订单：<span id="order"></span></li>
+                <li>金额：<strong>￥<span id="money"></span></strong></li>
+            </ul>
+            <dl>
+                <dt>地址：</dt>
+                <dd id="address"></dd>
+            </dl>
+        </div>
+        <div class="order_infor"></div>
+    </div>
+</div>
+<div id="alipayFrom"></div>
+<form id="myform" name="myform" method="post" action=""></form>
+</body>
+</html>
+<!--global-->
+<script type='text/javascript' src='/frame/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='/frame/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='/frame/zepto.cookie.js' charset='utf-8'></script>
+<script type='text/javascript' src="/iconfont/iconfont.js" charset='utf-8'></script><!--iconfont-->
+<script type='text/javascript' src='/js/global.js' charset='utf-8'></script>
+<!--own-->
+<script src="/js/payment.js"></script>

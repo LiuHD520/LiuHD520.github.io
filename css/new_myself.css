@@ -1,0 +1,330 @@
+@charset "UTF-8";
+/*** 公共 ***/
+.display_flex, .new-myself .my-orders .orders {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.new-myself {
+  /***new-myself-header***/
+  /***************my-assets*****************************/
+  /***************my-orders*****************************/
+  /***************two-activities*****************************/
+  /**************************common-one********************************************/
+  /**************************猜你喜欢********************************************/ }
+  .new-myself .new-myself-header {
+    width: 100%;
+    background: url("/img/new_myself/banner_personal.png") no-repeat;
+    background-size: 100% 100%; }
+    .new-myself .new-myself-header .new-myself-header-top {
+      padding: 1.3rem 0; }
+      .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left {
+        float: left; }
+        .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left .user-head {
+          float: left;
+          width: 3rem;
+          height: 3rem;
+          margin-left: 1rem;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          border-radius: 50%; }
+        .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left .user-info {
+          float: left;
+          margin-left: 0.6rem; }
+          .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left .user-info .user-info-name {
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: 500;
+            line-height: 1rem;
+            padding-right: 0.8rem;
+            width: 7rem;
+            position: relative;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            box-sizing: border-box; }
+            .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left .user-info .user-info-name .user-name {
+              font-size: 0.8rem; }
+            .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left .user-info .user-info-name .svgIcon {
+              color: #fff;
+              font-weight: 100;
+              margin-left: 0.4rem;
+              font-size: 0.4rem;
+              position: absolute;
+              float: left;
+              top: 0.2rem; }
+            .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left .user-info .user-info-name::after {
+              content: ".";
+              display: block;
+              height: 0;
+              clear: both;
+              visibility: hidden; }
+          .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-left .user-info .user-info-level {
+            display: block;
+            padding-top: 0.4rem;
+            width: 4.6rem; }
+      .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-right {
+        float: right; }
+        .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-right p {
+          padding-bottom: 0.1rem;
+          padding-left: 0.4rem;
+          padding-right: 0.3rem; }
+          .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-right p span {
+            padding: 0.2rem; }
+            .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-right p span .svgIcon {
+              font-size: 1.2rem;
+              color: white; }
+          .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-right p span:last-child {
+            position: relative; }
+            .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-right p span:last-child strong {
+              position: absolute;
+              right: 0;
+              top: -0.2rem;
+              color: #faafba;
+              font-size: 0.4rem;
+              width: 0.65rem;
+              height: 0.65rem;
+              line-height: 0.65rem;
+              text-align: center;
+              background: white;
+              -moz-border-radius: 50%;
+              -webkit-border-radius: 50%;
+              border-radius: 50%; }
+        .new-myself .new-myself-header .new-myself-header-top .new-myself-header-top-right .cut-seller {
+          display: block;
+          padding: 0.2rem 0.5rem;
+          padding-left: 0.8rem;
+          color: #fff;
+          font-size: 0.4rem;
+          border-top-left-radius: 0.9rem;
+          border-bottom-left-radius: 0.9rem;
+          background: rgba(0, 0, 0, 0.3); }
+      .new-myself .new-myself-header .new-myself-header-top::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .new-myself .new-myself-header .new-myself-header-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      display: -moz-box;
+      display: -webkit-box;
+      -moz-box-direction: normal;
+      -webkit-box-direction: normal;
+      box-direction: normal;
+      height: 2.2rem; }
+      .new-myself .new-myself-header .new-myself-header-bottom li {
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        -moz-box-flex: 1;
+        -webkit-box-flex: 1;
+        box-flex: 1;
+        list-style: none;
+        height: 2.2rem;
+        text-align: center;
+        line-height: 2.2rem;
+        font-weight: 100; }
+        .new-myself .new-myself-header .new-myself-header-bottom li a {
+          font-size: 0.65rem;
+          color: #FFF; }
+          .new-myself .new-myself-header .new-myself-header-bottom li a u {
+            position: relative;
+            top: 0.1rem;
+            text-decoration: none; }
+            .new-myself .new-myself-header .new-myself-header-bottom li a u .svgIcon {
+              font-size: 1.1rem; }
+      .new-myself .new-myself-header .new-myself-header-bottom .footprint {
+        border: none; }
+  .new-myself .my-assets {
+    display: -moz-box;
+    display: -webkit-box;
+    -moz-box-direction: normal;
+    -webkit-box-direction: normal;
+    box-direction: normal;
+    background: white; }
+    .new-myself .my-assets li {
+      -moz-box-flex: 1;
+      -webkit-box-flex: 1;
+      box-flex: 1;
+      list-style: none;
+      text-align: center;
+      color: #222222;
+      font-weight: 100;
+      font-size: 0.67rem;
+      padding: 0.5rem 0;
+      font-weight: 500; }
+      .new-myself .my-assets li p {
+        font-size: 0.75rem; }
+        .new-myself .my-assets li p u {
+          text-decoration: none;
+          font-size: 0.4rem; }
+  .new-myself .my-orders {
+    margin: 0.3rem 0;
+    background: white;
+    width: 100%; }
+    .new-myself .my-orders h5 {
+      padding: 0.45rem 0.5rem;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: #222222;
+      border-bottom: 1px solid #eeeeee; }
+      .new-myself .my-orders h5 a {
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: #222222; }
+        .new-myself .my-orders h5 a span {
+          float: right;
+          color: #a4a4a4; }
+    .new-myself .my-orders .orders {
+      background: #fff;
+      justify-content: space-around;
+      padding-top: 0.3rem; }
+      .new-myself .my-orders .orders dl {
+        width: 20%;
+        text-align: center;
+        padding: 0.5rem 0;
+        line-height: normal;
+        position: relative; }
+        .new-myself .my-orders .orders dl dt {
+          padding-bottom: 0.1rem; }
+          .new-myself .my-orders .orders dl dt .svgIcon {
+            font-size: 1.2rem; }
+        .new-myself .my-orders .orders dl dd {
+          font-size: 0.7rem; }
+        .new-myself .my-orders .orders dl .hint {
+          position: absolute;
+          right: 22%;
+          top: 6%;
+          -moz-border-radius: 0.35rem;
+          -webkit-border-radius: 0.35rem;
+          border-radius: 0.35rem;
+          background: #f64d6c;
+          padding: 0 0.18rem;
+          height: 0.7rem;
+          color: #fff;
+          font-size: 0.4rem;
+          line-height: 0.7rem;
+          text-align: center; }
+      .new-myself .my-orders .orders dl:nth-child(1) .svgIcon {
+        color: #555555; }
+      .new-myself .my-orders .orders dl:nth-child(2) .svgIcon {
+        color: #555555; }
+      .new-myself .my-orders .orders dl:nth-child(3) .svgIcon {
+        color: #555555; }
+      .new-myself .my-orders .orders dl:nth-child(4) .svgIcon {
+        color: #555555; }
+      .new-myself .my-orders .orders dl:nth-child(5) .svgIcon {
+        color: #555555; }
+  .new-myself .two-activities {
+    background: white;
+    padding: 0.6rem 0;
+    width: 100%; }
+    .new-myself .two-activities .two-activities-left {
+      width: 50%;
+      float: left; }
+      .new-myself .two-activities .two-activities-left img {
+        display: block;
+        width: 2.2rem;
+        height: 2.2rem;
+        float: left;
+        margin-left: 1.2rem; }
+      .new-myself .two-activities .two-activities-left .new-people {
+        float: left;
+        margin-left: 0.35rem;
+        padding-top: 0.2rem; }
+        .new-myself .two-activities .two-activities-left .new-people h5 {
+          font-weight: 500;
+          color: #222222;
+          font-size: 0.75rem; }
+        .new-myself .two-activities .two-activities-left .new-people p {
+          font-size: 0.65rem;
+          color: #9b9b9b; }
+      .new-myself .two-activities .two-activities-left::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .new-myself .two-activities .two-activities-right {
+      width: 50%;
+      float: left; }
+      .new-myself .two-activities .two-activities-right img {
+        display: block;
+        width: 2.2rem;
+        height: 2.2rem;
+        float: left;
+        margin-left: 0.8rem; }
+      .new-myself .two-activities .two-activities-right .use-coupons {
+        float: left;
+        margin-left: 0.35rem;
+        padding-top: 0.2rem; }
+        .new-myself .two-activities .two-activities-right .use-coupons h5 {
+          font-weight: 500;
+          color: #222222;
+          font-size: 0.75rem; }
+        .new-myself .two-activities .two-activities-right .use-coupons p {
+          font-size: 0.65rem;
+          color: #9b9b9b; }
+      .new-myself .two-activities .two-activities-right::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .new-myself .two-activities::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .new-myself .common-one {
+    margin-top: 0.3rem;
+    background: white; }
+    .new-myself .common-one p {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 0.8rem;
+      color: #222222;
+      font-weight: 500;
+      border-bottom: 1px solid #eeeeee; }
+      .new-myself .common-one p .svgIcon {
+        color: #c5c5c5;
+        font-size: 1.5rem;
+        padding-right: 0.1rem;
+        font-weight: 500;
+        padding-top: 0.35rem; }
+      .new-myself .common-one p span {
+        float: right;
+        color: #c5c5c5;
+        font-weight: 500;
+        padding-top: 0.22rem; }
+        .new-myself .common-one p span u {
+          text-decoration: none;
+          color: #ff2d55; }
+        .new-myself .common-one p span .svgIcon {
+          font-size: 1.1rem;
+          padding-top: 0.1rem;
+          padding-left: 0.2rem; }
+  .new-myself .guess-like {
+    width: 100%; }
+    .new-myself .guess-like h5 {
+      width: 100%;
+      text-align: center;
+      font-weight: 500;
+      font-size: 0.8rem;
+      padding: 0.6rem 0; }
+      .new-myself .guess-like h5 img {
+        width: 1.35rem;
+        position: relative;
+        top: -0.1rem; }
+      .new-myself .guess-like h5 span {
+        padding: 0 0.35rem; }
+
+/*# sourceMappingURL=new_myself.css.map */

@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*** flex布局 ***/
+.display_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.gift-packs {
+  .gift-packs-header {
+      height: 10rem;
+      position: relative;
+      img {
+        height: 100%;
+        display: block;
+      }
+     u {
+       position: absolute;
+       color: white;
+       right: 0.5rem;
+       top: 0.5rem;
+       text-decoration: none;
+       a {
+         color: white;
+         font-size: 0.7rem;
+         font-weight: 500;
+         padding-bottom: 0.05rem;
+         border-bottom: 1px solid #fff;
+       }
+     }
+  }
+  /******************************大礼包优惠券******************************************/
+  .gift-packs-mian {
+    background: #fb4f70;
+    padding-bottom: 4rem;
+    .gift-packs-coupons {
+      list-style: none;
+      width: 100%;
+      li {
+        float: left;
+        width: 50%;
+        background: url("/img/new_myself/coupons.png") no-repeat;
+        background-size: 100% 100%;
+        height: 4rem;
+        margin-top: 0.3rem;
+        strong {
+          position: relative;
+          top:0.6rem;
+          left: 0.75rem;
+          color: #fd5353;
+          font-size: 1.6rem;
+          font-weight: 900;
+          i {
+            position: absolute;
+            bottom: 0.1rem;
+            right: -0.4rem;
+            font-style: normal;
+            background: #ff5454;
+            width: 0.8rem;
+            height: 0.8rem;
+            line-height: 0.8rem;
+            border: 1px solid #fff;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            font-weight: 900;
+            font-size: 0.6rem;
+            color: white;
+            text-align: center;
+          }
+        }
+        span {
+          float: right;
+          font-size: 0.75rem;
+          color: #222222;
+          width: 66%;
+          text-align: center;
+          padding-top: 0.75rem;
+          font-weight: 600;
+          u {
+            text-decoration: none;
+            color: #a75312;
+          }
+        }
+      }
+      &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+    }
+    /**************************claim********************/
+    .claim {
+      padding: 0 3rem;
+      padding-top: 1rem;
+      width: 100%;
+      button {
+        width: 100%;
+        background: #ffcf27;
+        height: 2rem;
+        line-height: 2rem;
+        color: #550000;
+        font-size: 0.8rem;
+        -moz-border-radius: 0.3rem;
+        -webkit-border-radius: 0.3rem;
+        border-radius: 0.3rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+/***********************弹框*****************************/
+.success-receive {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+  position: absolute;
+  text-align: center;
+  display: none;
+  img {
+    width: 14rem;
+    height: 9rem;
+    margin-top: 12rem;
+  }
+}

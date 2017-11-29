@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*** flex布局 ***/
+.display_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.baai-notice {
+    dl {
+      padding: 0.5rem 0.8rem;
+      dt {
+        width: 100%;
+        color: #888888;
+        text-align: center;
+        font-size: 0.7rem;
+        padding: 0.5rem 0;
+      }
+      dd {
+        width: 100%;
+        background: #fff;
+        padding: 0 .5rem;
+        h5 {
+          font-size: 0.77rem;
+          color: #222222;
+          padding-top: 0.8rem;
+        }
+        p {
+          font-size: 0.7rem;
+          color: #888888;
+          line-height: 1rem;
+          padding-top: 0.4rem;
+          padding-bottom: 1rem;
+          border-bottom: 1px solid #d3d3d3;
+        }
+        h6 {
+          font-weight: 500;
+          color: #888888;
+          font-size: 0.75rem;
+          padding: 0.8rem 0;
+          span {
+            float: right;
+            .svgIcon {
+              font-size: 1.1rem;
+              color: #888888;
+            }
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*** 公共 ***/
+.display_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/***********own**************/
+.feed {
+  width: 100%;
+  padding: 0.5rem;
+  background: #ffffff;
+  position: relative; }
+  .feed .sele {
+    width: 100%;
+    background: #ffffff;
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; }
+  .feed .feed-right {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem; }
+
+.cont {
+  margin-top: 0.5rem;
+  background: white; }
+  .cont h5 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 0.5rem; }
+  .cont input {
+    border: none;
+    background: #f5f5f5;
+    width: 50%;
+    font-size: 0.85rem;
+    font-weight: 400;
+    background: #ffffff;
+    padding: 0.5rem; }
+  .cont ::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #8c8c8c; }
+  .cont :-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #8c8c8c; }
+  .cont ::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #8c8c8c; }
+  .cont :-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #8c8c8c; }
+
+.tex {
+  width: 100%;
+  margin-top: 0.5rem;
+  background: white;
+  position: relative; }
+  .tex h5 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 0.5rem; }
+  .tex textarea::-webkit-input-placeholder {
+    color: #909090; }
+  .tex .area {
+    width: 100%;
+    height: 9rem;
+    display: inline-block;
+    overflow: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #909090;
+    font-size: 0.75rem;
+    resize: none;
+    padding: 0.5rem; }
+  .tex span {
+    position: absolute;
+    bottom: 0.3rem;
+    right: 0.2rem;
+    color: #909090; }
+    .tex span i {
+      font-style: normal; }
+
+.uploader {
+  overflow: hidden;
+  background: white;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 100%; }
+  .uploader h5 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    float: left;
+    margin-right: 1rem; }
+  .uploader li {
+    list-style: none;
+    float: left;
+    margin-right: 0.5rem; }
+  .uploader .upload {
+    padding: 0;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border: 1px solid #c4c4c4;
+    background: white;
+    position: relative; }
+    .uploader .upload input {
+      display: block;
+      position: absolute;
+      top: 0;
+      opacity: 0;
+      width: 100%;
+      height: 100%; }
+    .uploader .upload strong {
+      display: block;
+      font-weight: normal; }
+      .uploader .upload strong .svgIcon {
+        font-size: 1.5rem;
+        color: #81848D; }
+  .uploader .delpic {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #EAECE7;
+    margin-right: 0.1rem; }
+    .uploader .delpic span {
+      position: absolute;
+      right: 0;
+      top: -5px; }
+      .uploader .delpic span .iconfont {
+        font-size: 0.85rem; }
+    .uploader .delpic img {
+      width: 4rem;
+      height: 4rem; }
+
+.uploadfrom {
+  display: none; }
+
+.footer {
+  width: 100%;
+  padding-top: 1rem;
+  text-align: center; }
+  .footer button {
+    width: 8rem;
+    background: #FB4B49;
+    line-height: 2rem;
+    border-radius: 6rem;
+    color: white; }
+
+.posit {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.3;
+  z-index: 500;
+  display: none; }
+
+.div-center {
+  position: fixed;
+  height: 40%;
+  width: 14rem;
+  background: white;
+  z-index: 1000;
+  top: 20%;
+  left: 50%;
+  margin-left: -7rem;
+  display: none;
+  overflow: scroll; }
+  .div-center h5 {
+    width: 100%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    font-size: 0.6rem;
+    border-bottom: 1px solid #ACA5A8;
+    padding-left: 1.2rem;
+    background: white; }
+
+/*# sourceMappingURL=feedback.css.map */

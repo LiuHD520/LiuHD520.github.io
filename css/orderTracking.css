@@ -1,0 +1,102 @@
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.order-tracking .logistics {
+  margin-top: 0.5rem; }
+  .order-tracking .logistics .logistics-info {
+    background-color: #fff;
+    padding: 0.8rem; }
+    .order-tracking .logistics .logistics-info p {
+      width: 25%;
+      float: left; }
+      .order-tracking .logistics .logistics-info p img {
+        display: block;
+        border: 1px solid #cccccc;
+        width: 100%;
+        height: 4rem; }
+    .order-tracking .logistics .logistics-info ul {
+      width: 75%;
+      list-style: none;
+      float: left;
+      padding-left: 0.4rem; }
+      .order-tracking .logistics .logistics-info ul li {
+        color: #adadad;
+        font-size: 0.6rem;
+        padding-bottom: 0.1rem; }
+        .order-tracking .logistics .logistics-info ul li i {
+          font-style: normal; }
+      .order-tracking .logistics .logistics-info ul li:first-child {
+        font-weight: 500;
+        font-size: 0.68rem;
+        color: #222222; }
+        .order-tracking .logistics .logistics-info ul li:first-child span {
+          color: #11a750; }
+    .order-tracking .logistics .logistics-info::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .order-tracking .logistics .logistics-location {
+    padding: 0.6rem 0.8rem;
+    background-color: #ffe6ea;
+    color: #222222;
+    font-size: 0.7rem;
+    font-weight: 500; }
+.order-tracking .order-tracking-location {
+  margin-top: 0.5rem;
+  padding-left: 0.8rem;
+  padding-bottom: 4rem;
+  background-color: #ffff; }
+  .order-tracking .order-tracking-location dl {
+    border-left: 2px solid #e8e8e8;
+    position: relative; }
+    .order-tracking .order-tracking-location dl dt {
+      position: absolute;
+      width: 0.4rem;
+      height: 0.4rem;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background-color: #e8e8e8;
+      left: -0.25rem;
+      top: 1.2rem; }
+    .order-tracking .order-tracking-location dl dd {
+      padding: 0 1.1rem;
+      color: #888888;
+      float: left;
+      width: 100%; }
+      .order-tracking .order-tracking-location dl dd p {
+        padding-top: 0.8rem;
+        font-size: 0.7rem;
+        line-height: 1rem; }
+      .order-tracking .order-tracking-location dl dd u {
+        text-decoration: none;
+        font-size: 0.7rem;
+        display: block;
+        padding-top: 0.3rem;
+        padding-bottom: 0.5rem;
+        width: 100%;
+        border-bottom: 1px solid #ededed; }
+    .order-tracking .order-tracking-location dl::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+
+.logistics-service {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #c2c2c2;
+  text-align: center;
+  padding: 0.6rem 0;
+  background: #fff; }
+  .logistics-service a {
+    color: #fc4e73;
+    font-size: 0.8rem; }
+
+/*# sourceMappingURL=orderTracking.css.map */

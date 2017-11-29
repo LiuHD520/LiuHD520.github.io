@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/*** 公共 ***/
+.display_flex, .myself .user .orders, .myself .assets ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/*** own ***/
+.myself .user {
+  background: url("../img/myself/userbg.jpg") no-repeat;
+  background-size: 100%; }
+  .myself .user .new_messages {
+    color: #fff;
+    text-align: center;
+    padding: 0.8rem 0.8rem 0 0.8rem;
+    position: relative; }
+    .myself .user .new_messages .iconfont {
+      color: #fff;
+      position: absolute;
+      right: 0.81rem; }
+    .myself .user .new_messages::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .myself .user ul {
+    line-height: 2rem; }
+    .myself .user ul li:nth-child(1) {
+      position: relative; }
+      .myself .user ul li:nth-child(1) p {
+        position: absolute;
+        top: 0.5rem;
+        left: 0.8rem;
+        width: 3rem;
+        height: 3rem; }
+        .myself .user ul li:nth-child(1) p img {
+          -moz-border-radius: 100%;
+          -webkit-border-radius: 100%;
+          border-radius: 100%;
+          border: 2px solid #fff; }
+      .myself .user ul li:nth-child(1) span {
+        padding-left: 4.2rem;
+        color: #fff;
+        position: relative; }
+        .myself .user ul li:nth-child(1) span img {
+          position: absolute;
+          bottom: 0;
+          height: 0.8rem;
+          width: 0.8rem;
+          margin-left: 0.5rem;
+          -moz-border-radius: 100%;
+          -webkit-border-radius: 100%;
+          border-radius: 100%; }
+    .myself .user ul li:nth-child(2) {
+      background: #fff;
+      padding-left: 4.2rem;
+      font-size: 0.75rem; }
+      .myself .user ul li:nth-child(2) .iconfont {
+        font-size: 0.8rem;
+        color: #a73238; }
+      .myself .user ul li:nth-child(2) p {
+        display: inline-block;
+        color: #a73238;
+        background: #f4b9b9;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        line-height: 1.2rem;
+        padding: 0 0.5rem; }
+  .myself .user .orders {
+    background: #fff;
+    justify-content: space-around;
+    border-top: 1px solid #f5f5f5; }
+    .myself .user .orders dl {
+      width: 25%;
+      text-align: center;
+      padding: 0.5rem 0;
+      line-height: normal;
+      position: relative; }
+      .myself .user .orders dl dt {
+        padding-bottom: 0.2rem; }
+        .myself .user .orders dl dt .iconfont {
+          font-size: 1.8rem; }
+      .myself .user .orders dl .hint {
+        position: absolute;
+        right: 25%;
+        top: 5%;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%;
+        background: red;
+        width: 0.75rem;
+        height: 0.75rem;
+        color: #fff;
+        font-size: 0.5rem;
+        line-height: 0.75rem;
+        text-align: center; }
+    .myself .user .orders dl:nth-child(1) .iconfont {
+      color: #ee1b20; }
+    .myself .user .orders dl:nth-child(2) .iconfont {
+      color: #eeb51b; }
+    .myself .user .orders dl:nth-child(3) .iconfont {
+      color: #ee971b; }
+    .myself .user .orders dl:nth-child(4) .iconfont {
+      color: #ee3e1b; }
+  .myself .user .login {
+    text-align: center;
+    padding: 0.5rem 0 1rem 0; }
+    .myself .user .login button {
+      color: #fff;
+      height: 1.7rem;
+      background: #ee1b20;
+      width: 40%; }
+.myself .assets {
+  line-height: 1.8rem;
+  background: #fff;
+  margin-top: 1rem; }
+  .myself .assets .iconfont {
+    margin-right: 0.3rem; }
+  .myself .assets > div {
+    padding: 0 0.8rem;
+    border-bottom: 1px solid #f5f5f5; }
+    .myself .assets > div span {
+      float: right;
+      color: #F94E00; }
+    .myself .assets > div .iconfont {
+      color: #E6B19F; }
+  .myself .assets ul {
+    padding-left: 0.8rem; }
+    .myself .assets ul li {
+      width: 50%;
+      padding-right: 0.8rem; }
+      .myself .assets ul li strong {
+        float: right;
+        font-weight: normal; }
+    .myself .assets ul li:nth-child(1) .iconfont {
+      color: #EBC59E; }
+      .myself .assets ul li:nth-child(1) .iconfont strong {
+        color: #ee1b20; }
+    .myself .assets ul li:nth-child(2) .iconfont {
+      color: #D69DB0; }
+    .myself .assets ul li:nth-child(2) strong {
+      color: #F94E00; }
+.myself .favorite {
+  padding-top: 1rem; }
+  .myself .favorite a {
+    display: block; }
+  .myself .favorite ul {
+    background: #fff;
+    margin-bottom: 1rem; }
+    .myself .favorite ul li {
+      padding: 0 0.8rem;
+      line-height: 1.8rem;
+      border-bottom: 1px solid #f5f5f5; }
+      .myself .favorite ul li .iconfont {
+        float: right;
+        color: #A6A6A6; }
+    .myself .favorite ul li:last-child {
+      border: none; }
+.myself .member {
+  background: #fff;
+  padding-top: 0.5rem; }
+  .myself .member::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  .myself .member dl {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding-bottom: 0.5rem; }
+    .myself .member dl dt {
+      line-height: normal; }
+      .myself .member dl dt .iconfont {
+        font-size: 1.8rem; }
+  .myself .member dl:nth-child(1) dt .iconfont {
+    color: #eda13f; }
+  .myself .member dl:nth-child(2) dt .iconfont {
+    color: #e14189; }
+  .myself .member dl:nth-child(3) dt .iconfont {
+    color: #ed3fd2; }
+  .myself .member dl:nth-child(4) dt .iconfont {
+    color: #eb4172; }
+  .myself .member dl:nth-child(5) dt .iconfont {
+    color: #eda13f; }
+  .myself .member dl:nth-child(6) dt .iconfont {
+    color: #e14189; }
+  .myself .member dl:nth-child(7) dt .iconfont {
+    color: #ed3fd2; }
+  .myself .member dl:nth-child(8) dt .iconfont {
+    color: #eb4172; }
+
+.reconfirm ul {
+  width: 80%;
+  margin: auto;
+  margin-top: 50%; }
+  .reconfirm ul li {
+    padding: 0 0.5rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #f5f5f5;
+    background: #fff; }
+.reconfirm p {
+  text-align: center; }
+  .reconfirm p .iconfont {
+    color: #fff;
+    font-size: 1.5rem; }
+
+/*# sourceMappingURL=myself.css.map */

@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*** 公共 ***/
+.display_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+/*** own ***/
+.mycollection {
+  .global-nothing {
+    padding-top: 50%;
+  };
+  .buttons-tab {
+    position: fixed;
+    top: 2.2rem;
+    z-index: 999;
+    width: 100%;
+  }
+  .tabs {
+    padding-top: 2rem;
+  }
+  .product_list {
+    .fromsale {
+      text-align: right;
+    }
+    dl {
+      position: relative;
+    }
+  }
+  .brand {
+    ul {
+      @extend .display_flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.3rem 0.5rem;
+      background: #fff;
+      margin: 0.5rem auto;
+      position: relative;
+      li {
+        @extend .display_flex;
+        align-items: center;
+      }
+      p span {
+        padding-right: 0.5rem;
+      }
+      .pic {
+        height: 2rem;
+        img {
+          height: 2rem;
+          width: 5rem;
+        }
+      }
+      .cancel {
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        padding: 0.3rem 0.5rem;
+        color: #fff;
+        background: #f13030;
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .off {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    background-color: rgba(245,245,245,0.5)!important;
+    filter: Alpha(opacity=50);
+    background: #f5f5f5;
+  }
+}

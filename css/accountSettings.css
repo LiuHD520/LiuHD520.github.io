@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.account-settings {
+  /*****************add-information************/
+  /********************user-info-settings*******************/
+  /********************baai-about*******************/
+  /**************************退出当前账号********************/ }
+  .account-settings .account-settings-header {
+    border-top: 1px solid #cccccc;
+    padding: 0.8rem 0.5rem 0.8rem 0.8rem;
+    background: white; }
+    .account-settings .account-settings-header .user-head {
+      float: left;
+      height: 2.6rem;
+      width: 2.6rem;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+    .account-settings .account-settings-header h5 {
+      float: left;
+      color: #222222;
+      font-size: 0.75rem;
+      margin-left: 0.4rem;
+      position: relative;
+      top: 0.7rem;
+      width: 42%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+    .account-settings .account-settings-header span {
+      float: right;
+      color: #888888;
+      font-size: 0.75rem;
+      position: relative;
+      top: 0.7rem; }
+      .account-settings .account-settings-header span .svgIcon {
+        font-size: 0.75rem; }
+    .account-settings .account-settings-header::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .account-settings .add-information {
+    color: #888888;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.65rem; }
+  .account-settings .add-like {
+    background: white; }
+    .account-settings .add-like p {
+      width: 100%;
+      padding: 0.8rem 0.5rem 0.8rem 0.8rem;
+      font-size: 0.8rem;
+      color: #222222; }
+      .account-settings .add-like p span {
+        float: right;
+        color: #888888;
+        font-size: 0.75rem; }
+  .account-settings .user-info-settings {
+    margin-top: 0.5rem;
+    padding-left: 0.8rem;
+    width: 100%;
+    background: white; }
+    .account-settings .user-info-settings p {
+      padding: 0.5rem 0.5rem 0.5rem 0;
+      width: 100%;
+      font-size: 0.75rem;
+      color: #222222;
+      border-bottom: 1px solid #eeeeee; }
+      .account-settings .user-info-settings p span {
+        float: right;
+        color: #888888;
+        font-size: 0.75rem; }
+  .account-settings .baai-about {
+    margin-top: 0.5rem;
+    padding-left: 0.8rem;
+    background: white;
+    width: 100%; }
+    .account-settings .baai-about p {
+      padding: 0.5rem 0.5rem 0.5rem 0;
+      width: 100%;
+      font-size: 0.75rem;
+      color: #222222;
+      border-bottom: 1px solid #eeeeee; }
+      .account-settings .baai-about p span {
+        float: right;
+        color: #888888;
+        font-size: 0.75rem; }
+  .account-settings .drop-out {
+    padding: 0 0.9rem;
+    padding-top: 1rem;
+    width: 100%; }
+    .account-settings .drop-out button {
+      width: 100%;
+      border: 1px solid #fc8b9e;
+      height: 2rem;
+      line-height: 2rem;
+      color: #fc8b9e;
+      font-size: 0.8rem;
+      -moz-border-radius: 0.9rem;
+      -webkit-border-radius: 0.9rem;
+      border-radius: 0.9rem;
+      background: white; }
+
+/*# sourceMappingURL=accountSettings.css.map */

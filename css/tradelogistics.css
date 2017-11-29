@@ -1,0 +1,69 @@
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.trade-logistics dl {
+  padding: 1rem 0.8rem; }
+  .trade-logistics dl dt {
+    width: 100%;
+    color: #888888;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 0.5rem 0; }
+  .trade-logistics dl dd {
+    background: #fff;
+    padding: 0.5rem 0.8rem 0.5rem 0.5rem; }
+    .trade-logistics dl dd p {
+      font-size: 0.75rem; }
+      .trade-logistics dl dd p u {
+        text-decoration: none; }
+      .trade-logistics dl dd p .p-color01 {
+        color: #fa4f71; }
+      .trade-logistics dl dd p .p-color02 {
+        color: #73c08c; }
+      .trade-logistics dl dd p span {
+        color: #888888; }
+    .trade-logistics dl dd h5 {
+      margin-top: 0.65rem; }
+      .trade-logistics dl dd h5 img {
+        float: left;
+        width: 2.4rem;
+        height: 2.4rem; }
+      .trade-logistics dl dd h5 i {
+        padding-left: 0.5rem;
+        font-size: 0.76rem;
+        font-style: normal;
+        width: 81%;
+        float: left;
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+      .trade-logistics dl dd h5::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .trade-logistics dl dd h6 {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      position: relative; }
+      .trade-logistics dl dd h6 span {
+        float: right;
+        font-size: 0.65rem;
+        color: #888888;
+        font-weight: 500; }
+      .trade-logistics dl dd h6::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+
+/*# sourceMappingURL=tradelogistics.css.map */

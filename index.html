@@ -1,276 +1,373 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>招商加盟</title>
-    <title>八爱网-招商加盟-美容美妆o2o服务垂直平台</title>
-    <meta name="description" content="八爱网为美容美妆垂直行业的商家、专家、顾客服务。八爱网品牌街,为你展示最热美妆流行趋势,最新美妆品牌分享，帮你发现最热网购美妆单品。你可以在这收集优质美妆商品，分享你喜欢的美妆商品。八爱网品牌街，我们一起分享潮流！">
-    <meta name="Keywords" content="美容美妆服务,美发,美容,美甲,护肤,化妆,微整,SPA,八爱网">
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        html,body{
-            height: 100%;
-        }
-        #join{
-            width: 100%;
-            overflow: hidden;
-            background-color: gainsboro;
-        }
-        .top{
-            width: 100%;
-        }
-        a{
-            text-decoration: none;
-        }
-        ul{
-            list-style:none;
-        }
-        .top img{
-            width: 100%;
-            display: block;
-        }
-        .top .nav{
-            width: 100%;
-            height: 3rem;
-            background-color: grey;
-        }
-        .top .nav ul{
-            width: 60%;
-            height: 100%;
-            margin: 0 auto;
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-        }
-        .top .nav ul a{
-            width: 20%;
-        }
-        .top .nav ul a li{
-            text-align: center;
-            line-height: 3rem;
-            color: #fff;
-            position: relative;
-        }
-        .top .nav ul a li img{
-            width: 20px;
-            height: 10px;
-            position: absolute;
-            top:3rem;
-            left:45%;
-            display: none;
-        }
-        .top .nav ul a:nth-child(1){
-            background-color: #EE2266;
-        }
-        .top .nav ul a:nth-child(1) li img{
-            display: block;
-        }
-        /*module 加盟申请*/
-        .module{
-            width: 100%;
-            text-align: center;
-            background-color: #EEEEEE;
-        }
-        .moduleThird{
-            background-color: #F4F4F5;
-        }
-        .moduleSecond{
-            background-color: #EE3673;
-        }
-        .moduleForth{
-            background-color: #3F4245;
-        }
-        .moduleFifth{
-            margin-top: 20px;
-            background-color: #ffffff;
-        }
-        .moduleFifth img{
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .moduleFifth .collaborate{
-            text-align: left;
-            width: 50%;
-            margin-left: 25%;
-        }
-        .collaborate .type{
-        }
-        .collaborate .type span{
-            width: 120px;
-            text-align: right;
-            float: left;
-        }
-        .collaborate .type ul{
-            float: left;
-            margin-bottom:20px;
-            margin-left: 30px;
-            width: 70%;
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-        }
-        .collaborate .type ul li{
-            display: inline-block;
-            float: left;
-        }
-        .collaborate .type ul li input{
-            width: 15px;
-            height:15px;
-            border-radius:15px;
-        }
-        .collaborate .info{
-            clear: both;
-        }
-        .collaborate .info ul li span{
-            display: inline-block;
-            width:120px;
-            text-align: right;
-        }
-        .collaborate .info ul li input{
-            padding-left: 1%;
-            margin-top: 20px;
-            margin-left: 30px;
-            width: 69%;
-            height: 2rem;
-        }
-        .collaborate .info ul li .btn{
-            display: inline-block;
-            width: 120px;
-            height: 40px;
-            margin-top: 40px;
-            margin-left: 30px;
-            margin-bottom: 50px;
-            background-color: #EE2266;
-            text-align: center;
-            line-height: 40px;
-            border-radius: 10px;
-            color: #ffffff;
-        }
-        .line{
-            width: 100%;
-            height: 1px;
-            background-color: gainsboro;
-            margin-bottom: 50px;
-        }
-        .collaborate .type .companyType{
-            width: 55%;
-        }
-        .collaborate .info ul li .company{
-            outline:none;
-            resize:none;
-            padding-left: 1%;
-            padding-top: 1%;
-            margin-top: 20px;
-            margin-left: 30px;
-            width: 69%;
-            height: 20rem;
-        }
-        .collaborate .info ul li .companyPeople{
-
-        }
-
-
-
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>八爱网-购物返利，品牌专卖，促销折扣,优惠券,返利, 海淘特卖惠，一站搞定！BAAI.com</title>
+    <meta name="Keywords" content="BAAI,八爱网,优惠券,打折,返利,选购,逛街,海淘特卖惠，品牌导购" />
+    <meta name="description" content="八爱网致力于提供方便快捷的海淘美妆、品牌分享，美妆分享、购物返利等一站式导购、省钱服务。全球美妆商品一网打尽，多重优惠一次尽享，多种服务八爱网一站搞定。" />
+    <link rel="shortcut icon" href="/img/baai_logo_icon.ico" />
+    <!--SUI Mobile-->
+    <link rel="stylesheet" href="/frame/sm.min.css">
+    <script type='text/javascript' src='/frame/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='/frame/zepto.cookie.js' charset='utf-8'></script>
+    <!--公共-->
+    <link rel="stylesheet" type="text/css" href="/iconfont/iconfont.css">
+    <script src="/iconfont/iconfont.js"></script>
+    <link rel="stylesheet" href="/css/global.css" />
+    <script type='text/javascript' src='/js/global.js' charset='utf-8'></script>
+    <!--own-->
+    <link rel="stylesheet" href="/css/home.css" />
 </head>
 <body>
-<div id="join">
-    <div class="top">
-        <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291016323925.png" alt="">
-        <!--导航-->
-        <div class="nav">
-            <ul id="nav-joinInvesrment">
-                <a href="#1"><li class="joinInvesrment-active">门店加盟 <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291021254469.png" alt=""></li></a>
-                <a href="#2"><li class="joinInvesrment-active">我们的优势 <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291021254469.png" alt=""></li></a>
-                <a href="#3"><li class="joinInvesrment-active">合作伙伴 <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291021254469.png" alt=""></li></a>
-                <a href="#4"><li class="joinInvesrment-active">加盟政策 <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291021254469.png" alt=""></li></a>
-                <a href="#5"><li class="joinInvesrment-active">申请加盟 <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291021254469.png" alt=""></li></a>
+<div class="page-group">
+    <!-- 页头 -->
+    <header class="bar bar-nav">
+        <div class="search-input" onClick="javascript:window.location.href='search_page.html';">
+            <label class="icon icon-search" for="search"></label>
+            <input type="search" id='search' readonly placeholder='输入关键字...'/>
+        </div>
+    </header>
+    <!-- 页尾 -->
+    <footer class="bar bar-tab">
+        <a class="tab-item selected" href="index.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-shouye-weitianse"></use></svg>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="classify.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-fenlei-weitianse"></use></svg>
+            <span class="tab-label">分类</span>
+        </a>
+        <a class="tab-item" href="join.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-jiamengba"></use></svg>
+            <span class="tab-label">招商加盟</span>
+        </a>
+        <a class="tab-item" href="shopping_cart.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-gouwuche2"></use></svg>
+            <span class="tab-label">购物车</span>
+        </a>
+        <a class="tab-item" href="myself.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-user"></use></svg>
+            <span class="tab-label">我</span>
+        </a>
+    </footer>
+    <!-- 内容区 -->
+    <div class="content home">
+        <div class="banner-prodraw">
+            <div id='mySwipe' class='swipe'>
+                <div class='swipe-wrap'>
+                   <!--  <a href="#"><img src="http://n.baai.com/baai/uploadfile/2017/06/02/201706020722419025.jpg" /></a> -->
+                </div>
+            </div>
+            <div class="swipe-wrap-list"></div>
+        </div>
+        <div class="minbanner"><!-- <img src="http://n.baai.com/baai/uploadfile/2016/12/10/201612101344248824.png" /> --></div>
+        <div class="special">
+            <h1>年度好货 手慢则无<span class="more"><a href="classify.html">找更多</a></span></h1>
+            <ul class="yearGoods">
+                <!-- <li>
+                    <a href="#">
+                        <span>洗护专场</span>
+                        <p><img src="http://n.baai.com/baai/uploadfile/2016/12/10/201612101345049996.png" /></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>洗护专场</span>
+                        <p><img src="http://n.baai.com/baai/uploadfile/2017/03/30/201703300328149826.png" /></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>洗护专场</span>
+                        <p><img src="http://n.baai.com/baai/uploadfile/2017/04/02/20170402050448480.jpg" /></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>洗护专场</span>
+                        <p><img src="http://n.baai.com/baai/uploadfile/2017/04/02/201704020508082078.jpg" /></p>
+                    </a>
+                </li> -->
             </ul>
         </div>
-    </div>
-    <div class="module moduleFirst" id="1">
-        <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291017393989.png" alt="">
-    </div>
-    <div class="module moduleSecond" id="2">
-        <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291018077369.png" alt="">
-    </div>
-    <div class="module moduleThird" id="3">
-        <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291018296785.png" alt="">
-    </div>
-    <div class="module moduleForth" id="4">
-        <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291018519461.png" alt="">
-    </div>
-    <div class="module moduleFifth" id="5">
-        <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711291027347301.png" alt="">
-        <!--加盟申请-->
-        <div class="collaborate">
-            <div class="type">
-                <span>合作类型:</span>
-                <ul>
-                    <li><input type="radio" checked=”checked”> 微商</li>
-                </ul>
+        <div class="hotbrand">
+            <h2><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-zuanshi"></use></svg>热门品牌</h2>
+            <div class="layout layout-2 index01">
+                <!-- <dl>
+                    <a href="#">
+                    <dt>一元换购（满99元）</dt>
+                    <dt>TONYMOLY天然芒果防晒霜</dt>
+                    <dd><img src="http://n.baai.com/baai/uploadfile/2017/06/02/201706021223473606.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                    <dt>一元换购（满99元）</dt>
+                    <dt>爱可妈咪爱儿童牙膏</dt>
+                    <dd><img src="http://n.baai.com/baai/uploadfile/2017/06/02/20170602122810654.jpg" /></dd>
+                    </a>
+                </dl> -->
             </div>
-            <div class="info">
-                <ul>
-                    <li><span>姓名:</span><input type="text" placeholder="输入您的姓名"></li>
-                    <li><span>手机:</span><input type="number" placeholder="输入您的手机号"></li>
-                    <li><span>微信号:</span><input type="text" placeholder="输入您的微信号"></li>
-                    <li><span>邮箱:</span><input type="text" placeholder="输入您的邮箱"></li>
-                    <li><span>目前职业:</span><input type="text" placeholder="输入您的职业"></li>
-                    <li><span></span><div class="btn">提交</div></li>
-                </ul>
+            <div class="layout layout-4 layout-test index02">
+               <!--  <dl>
+                    <a href="#">
+                        <dt>2盒装 ￥158</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/05/06/201705061340201225.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>洗面奶 ￥45</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/05/06/201705061358481023.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>卸妆膏 ￥90</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/05/06/201705061452453711.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>3盒装 ￥183</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/05/06/20170506145532912.jpg" /></dd>
+                    </a>
+                </dl> -->
             </div>
         </div>
-        <div class="line"></div>
-        <div class="collaborate">
-            <div class="type">
-                <span>合作类型:</span>
-                <ul class="companyType">
-                    <li><input type="radio" name="group1" value="货源合作" checked=”checked”> 货源合作</li>
-                    <li><input type="radio" name="group1" value="加盟店"> 加盟店</li>
-                    <li><input type="radio" name="group1" value="区域代理"> 区域代理</li>
-                    <li><input type="radio" name="group1" value="政府合作项目"> 政府合作项目</li>
-                </ul>
+        <div class="hotbrand">
+            <h2><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-kouhong1"></use></svg>知名美妆</h2>
+            <div class="layout layout-3 knowMakeups">
+                <!-- <dl>
+                    <a href="#">
+                        <dt>悦诗风吟</dt>
+                        <dt>绿茶水乳套装</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/02/201704020543461141.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>得鲜</dt>
+                        <dt>白桦茸水乳套装</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/02/201704020536539925.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>呼吸</dt>
+                        <dt>水分惊喜套装</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/02/201704020542572383.jpg" /></dd>
+                    </a>
+                </dl> -->
             </div>
-            <div class="info">
-                <ul>
-                    <li><span>公司名称:</span><input type="text" placeholder="输入您的姓名"></li>
-                    <li><span>手机:</span><input type="number" placeholder="输入您的手机号"></li>
-                    <li><span class="companyPeople">企业介绍:</span><textarea class="company" type="text" placeholder="介绍一下您的企业"></textarea></li>
-                    <li><span>负责人:</span><input type="text" placeholder="负责人姓名"></li>
-                    <li>
-                        <span>上传营业执照:</span>
-                        <input class="file" type="file">
-                    </li>
-                    <li><span>网址:</span><input type="text" placeholder="输入公司的网址"></li>
-                    <li><span></span><div class="btn">提交</div></li>
-                </ul>
+        </div>
+        <div class="hotbrand">
+            <h2><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-hufu"></use></svg>美白护肤</h2>
+            <div class="layout layout-4 index04">
+                <!-- <dl>
+                    <a href="#">
+                        <dt>九朵云</dt>
+                        <dt>美白祛斑霜</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/03/31/20170331145956894.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>蒂佳婷</dt>
+                        <dt>新生美白霜</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/05/29/201705291259185785.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>Tonymoly</dt>
+                        <dt>魔法洗面奶</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2015/07/22/201507221320349567.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>蜗牛</dt>
+                        <dt>抗皱水霜</dt>
+                        <dd><img src="http://n.baai.com/product/16924.png" /></dd>
+                    </a>
+                </dl> -->
+            </div>
+        </div>
+        <div class="hotbrand">
+            <h2><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-huli1"></use></svg>生活护理</h2>
+            <div class="layout layout-3 index05">
+                <!-- <dl>
+                    <a href="#">
+                        <dt>吕</dt>
+                        <dt>红吕洗护组合</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101317377521.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>LG</dt>
+                        <dt>香氛沐浴露</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101411394091.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>爱茉莉</dt>
+                        <dt>麦迪安牙膏</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101418297538.jpg" /></dd>
+                    </a>
+                </dl> -->
+            </div>
+        </div>
+        <div class="hotbrand">
+            <h2><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-mianmo1"></use></svg>韩国面膜</h2>
+            <div class="layout layout-3 index06">
+                <!-- <dl>
+                    <a href="#">
+                        <dt>JAYJUN</dt>
+                        <dt>补水水光面膜</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>美迪惠尔</dt>
+                        <dt>三倍补水面膜</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101442331496.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>春雨</dt>
+                        <dt>蜂蜜补水面膜</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2017/04/10/20170410144518352.jpg" /></dd>
+                    </a>
+                </dl> -->
+            </div>
+        </div>
+        <div class="hotbrand">
+            <h2><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-muying"></use></svg>母婴系列</h2>
+            <div class="layout layout-2 index07">
+                <!-- <dl>
+                    <a href="#">
+                        <dt>Agirang</dt>
+                        <dt>宽口径奶瓶</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2016/12/10/201612101500281740.png" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>hero baby</dt>
+                        <dt>婴儿牛奶粉三段</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2015/07/21/201507210955462907.jpg" /></dd>
+                    </a>
+                </dl> -->
+            </div>
+        </div>
+        <div class="hotbrand">
+            <h2><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-lingshiniunai"></use></svg>食品系列</h2>
+            <div class="layout layout-2 index08">
+                <!-- <dl>
+                    <a href="#">
+                        <dt>乐天零食</dt>
+                        <dt>奶油夹心曲奇饼干</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2016/01/19/201601191803291964.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>ANJO安吉欧</dt>
+                        <dt>橄榄油烤海苔</dt>
+                        <dd><img src="http://n.baai.com/product/18392.jpg" /></dd>
+                    </a>
+                </dl> -->
+            </div>
+            <div class="layout layout-4 layout-test index09">
+                <!-- <dl>
+                    <a href="#">
+                        <dt>八爪鱼虾条</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2016/12/10/201612101507097040.png" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>金枪鱼罐头</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2016/01/19/201601191627145970.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>黄油扁桃仁</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2016/01/19/201601191852209961.jpg" /></dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>巧克力饼干</dt>
+                        <dd><img src="http://n.baai.com/baai/uploadfile/2016/01/19/201601191624244086.jpg" /></dd>
+                    </a>
+                </dl> -->
+            </div>
+        </div>
+        <div class="likeit">
+            <h2>猜你喜欢</h2>
+            <div class="product_list beancurd_cube index10">
+               <!--  <dl>
+                    <dt><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497685376&di=a003ab4add962ffc62f50aae042cba6f&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F14%2F82%2F64%2F76G58PIC2aT_1024.jpg" /></dt>
+                    <dd>
+                        <p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="plprice"><span>￥<strong>88.00</strong></span></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></dt>
+                    <dd>
+                        <p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="plprice"><span>￥<strong>188.00</strong></span></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497685376&di=a003ab4add962ffc62f50aae042cba6f&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F14%2F82%2F64%2F76G58PIC2aT_1024.jpg" /></dt>
+                    <dd>
+                        <p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="plprice"><span>￥<strong>88.00</strong></span></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></dt>
+                    <dd>
+                        <p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="plprice"><span>￥<strong>188.00</strong></span></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1497685376&di=a003ab4add962ffc62f50aae042cba6f&imgtype=jpg&er=1&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F14%2F82%2F64%2F76G58PIC2aT_1024.jpg" /></dt>
+                    <dd>
+                        <p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="plprice"><span>￥<strong>88.00</strong></span></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></dt>
+                    <dd>
+                        <p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="plprice"><span>￥<strong>188.00</strong></span></p>
+                    </dd>
+                </dl> -->
             </div>
         </div>
     </div>
 </div>
-
 </body>
-<script>
-    var clickTitle = document.getElementByByClassName("joinInvesrment-active");
-    var imgArr = [clickTitle[0].childNodes[1],clickTitle[1].childNodes[1],clickTitle[2].childNodes[1],clickTitle[3].childNodes[1],clickTitle[4].childNodes[1]];
-    for(var i = 0; i < 5; i++){
-        (function (i) {
-        clickTitle[i].onclick = function (e) {
-            for(var j = 0; j < 5; j++) {
-                if(i == j){
-                    clickTitle[j].style.backgroundColor = '#EE2266';
-                    imgArr[j].style.display = 'block';
-                } else {
-                    clickTitle[j].style.backgroundColor = 'gray';
-                    imgArr[j].style.display = 'none';
-                }
-            }
-        }
-        })(i)
-    }
-</script>
 </html>
+<!--SUI Mobile-->
+<script type='text/javascript' src='/frame/sm.min.js' charset='utf-8'></script>
+<!--轮播-->
+<script type='text/javascript' src='/frame/swipe.js'></script>
+<!--own-->
+<script type='text/javascript' src="/js/home.js"></script>

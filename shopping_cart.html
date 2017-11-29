@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>购物车</title>
+    <link rel="shortcut icon" href="/img/baai_logo_icon.ico" />
+    !--SUI Mobile-->
+    <link rel="stylesheet" href="/frame/sm.min.css">
+    <script type='text/javascript' src='/frame/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='/frame/zepto.cookie.js' charset='utf-8'></script>
+    <script type='text/javascript' src='/js/global.js' charset='utf-8'></script>
+    <!--公共-->
+    <link rel="stylesheet" type="text/css" href="/iconfont/iconfont.css">
+    <script src="/iconfont/iconfont.js"></script>
+    <link rel="stylesheet" href="/css/global.css" />
+    <!--own-->
+    <link rel="stylesheet" href="/css/shopping_cart.css" />
+</head>
+<body>
+<div class="page-group">
+    <!-- 页头 -->
+    <header class="bar bar-nav">
+        <h6 class="pull-right">编辑</h6>
+        <h6 class="voucher" style="display: none;">领券</h6>
+        <h6 class="pull-left" onClick="javascript:history.back(-1);"><i class="iconfont icon-fanhui"></i></h6>
+        <h1 class="title">购物车</h1>
+    </header>
+    <!-- 页尾 -->
+    <footer class="bar bar-tab">
+        <a class="tab-item" href="index.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-shouye-weitianse"></use></svg>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="classify.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-fenlei-weitianse"></use></svg>
+            <span class="tab-label">分类</span>
+        </a>
+        <a class="tab-item" href="join.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-jiamengba"></use></svg>
+            <span class="tab-label">招商加盟</span>
+        </a>
+        <a class="tab-item selected" href="shopping_cart.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-gouwuche2"></use></svg>
+            <span class="tab-label">购物车</span>
+        </a>
+        <a class="tab-item" href="myself.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-user"></use></svg>
+            <span class="tab-label">我</span>
+        </a>
+    </footer>
+    <!-- 内容区 -->
+    <div class="content shopping_cart">
+        <div class="buttons-tab">
+            <a href="#tab1" class="tab-link active button">购物车</a>
+            <a href="#tab2" class="tab-link button">已转发</a>
+        </div>
+        <div class="tabs">
+            <div id="tab1" class="tab active">
+                <div class="shopp_list">
+                    <div class="consignment">
+                        <!--<dl>-->
+                            <!--<dt class="choice"><i class="iconfont icon-weixuanze"></i></dt>-->
+                            <!--<dt class="pic"><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></dt>-->
+                            <!--<dd>-->
+                                <!--<p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>-->
+                                <!--<p class="plsepc open-about">LO54 1.3g<i class="iconfont icon-xiala"></i></p>-->
+                                <!--<p class="plprice">-->
+                                    <!--<span>￥<strong class="unitprice">88.00</strong></span>-->
+                                    <!--<span class="plnum">-->
+                                        <!--<a href="javascript:;" class="subtraction">-</a>-->
+                                        <!--<input type="text" value="1" />-->
+                                        <!--<a href="javascript:;" class="addition">+</a>-->
+                                    <!--</span>-->
+                                <!--</p>-->
+                            <!--</dd>-->
+                            <!--<dd class="mask_layer">遮罩层</dd>-->
+                        <!--</dl>-->
+                    </div>
+                    <div class="settlement">
+                        <p class="choice"><i class="iconfont icon-weixuanze"></i><span>全选</span></p>
+                        <ul>
+                            <li>
+                                <p>合计：<span>￥<strong id="totalpice">0.00</strong></span></p>
+                                <p>不含运费</p>
+                            </li>
+                            <li id="tlementnum">结算(0)</li>
+                        </ul>
+                        <ol style="display: none;">
+                            <li class="setCollection">移至收藏夹</li>
+                            <li class="setDel">删除</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div id="tab2" class="tab">
+                <div class="global-nothing" style="display: none;">
+                    <p><svg class="svgIcon" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-wo-weitianse"></use></svg></p>
+                    <p>您尚未登录，请先<a href="login.html">登录</a></p>
+                </div>
+                <div class="forward_list">
+                    <div class="del_select">
+                        <p class="choice"><i class="iconfont icon-weixuanze"></i><span>全选</span></p>
+                        <ul>
+                            <li>删除</li>
+                        </ul>
+                    </div>
+                    <!--<div class="prt">-->
+                        <!--<dl>-->
+                            <!--<dt class="choice"><i class="iconfont icon-weixuanze"></i></dt>-->
+                            <!--<dt class="pic"><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></dt>-->
+                            <!--<dd>-->
+                                <!--<p class="plname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>-->
+                                <!--<p class="plsepc">￥280.00</p>-->
+                            <!--</dd>-->
+                        <!--</dl>-->
+                        <!--<ul>-->
+                            <!--<li class="open-about">加入购物车</li>-->
+                            <!--<li class="open-about">立即下单</li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup popup-about">
+        <!--加入购物车、立即下单、选规格-->
+        <div class="editSpecifications">
+            <header class="bar bar-nav">
+                <ul data-productId="">
+                    <li><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></li>
+                    <li>
+                        <p class="slepname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="selmodel">
+                            <span class="slepic">￥<strong>96.00</strong></span>
+                            <span class="slenum global-number">
+                                <strong>库存：8658</strong>
+                                <a href="javascript:;">-</a>
+                                <input type="text" value="1" />
+                                <a href="javascript:;">+</a>
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </header>
+            <footer class="bar bar-tab">
+                <button class="close-popup">取消</button>
+                <button class="close-popup confirm">确定</button>
+            </footer>
+            <div class="content global-specification">
+                <p data-id="" data-price="" data-stock="">规格、参数</p>
+            </div>
+        </div>
+        <!--领券-->
+        <div class="getAcoupon">
+            <div class="voucher-detail">
+                <div class="voucher-detail-list">
+                    <div class="voucher-detail-list-price"><strong>3</strong>元</div>
+                    <div class="voucher-detail-list-explain">
+                        <div class="voucher-detail-list-explain-left">
+                            <h5>订单满89使用（不含邮费）</h5>
+                            <p>使用期限 2017.09.03-2017.12.03</p>
+                        </div>
+                        <div class="voucher-detail-list-explain-right">
+                            领取
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="close-voucher close-popup">关闭</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<!--SUI Mobile-->
+<script type='text/javascript' src='/frame/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='/js/global.js' charset='utf-8'></script>
+<!--own-->
+<script type='text/javascript' src="/js/shopping_cart.js"></script>

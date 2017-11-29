@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*** 公共 ***/
+.display_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+/*** own ***/
+.classify {
+  @extend .display_flex;
+  .classlist {
+    width: 30%;
+    text-align: center;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    p {
+      display: block;
+    }
+    .selected {
+      background: #fff;
+      position: relative;
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        border-left: 0.2rem solid #fd7474;
+      }
+    }
+  }
+  .productlist {
+    width: 70%;
+    height: 100%;
+    overflow-y: auto;
+    background: #fff;
+    dl {
+      float: left;
+      width: 32%;
+      text-align: center;
+      margin-right: 2%;
+      padding-bottom: 0.2rem;
+      dt {
+        width: 100%;
+        position: relative;
+        img {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+        &::after {
+          content: '';
+          display: block;
+          padding-top: 100%;
+          visibility: hidden;
+        }
+      }
+      dd {
+        height: 1.5rem;
+        line-height:1.5rem;
+        overflow: hidden;
+      }
+      &:nth-child(3n) {
+        margin: 0;
+      }
+      &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+    }
+  }
+}

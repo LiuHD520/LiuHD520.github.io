@@ -1,0 +1,474 @@
+@charset "UTF-8";
+/*** 规格参数 ***/
+/*** 公共 ***/
+.display_flex, .editSpecifications header ul, .editSpecifications header ul li:last-child, .editSpecifications header ul li:last-child .selmodel, .editSpecifications header ul li:last-child .selmodel .slenum, footer, .product_detail .tit_pice .tit, .product_detail .tit_pice ul, .product_detail .member dl, .product_detail .para_list dl, .product_detail .comments h1, .product_detail .comments dl dt, .product_detail .cdity_copy h1, .member_explain dl dt {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/*** own ***/
+.editSpecifications {
+  height: 100%; }
+  .editSpecifications header {
+    height: 4.1rem;
+    padding: 0; }
+    .editSpecifications header ul {
+      font-size: 0.75rem;
+      padding: 0.3rem; }
+      .editSpecifications header ul li:first-child {
+        padding-right: 0.3rem; }
+        .editSpecifications header ul li:first-child img {
+          display: block;
+          width: 3.5rem;
+          height: 3.5rem;
+          border: 1px solid #d6d6d6; }
+      .editSpecifications header ul li:last-child {
+        width: calc(100% - 3.8rem);
+        -moz-box-align: stretch;
+        -webkit-box-align: stretch;
+        -o-box-align: stretch;
+        box-align: stretch;
+        -moz-box-orient: vertical;
+        -webkit-box-orient: vertical;
+        box-orient: vertical;
+        flex-direction: column;
+        justify-content: space-between; }
+        .editSpecifications header ul li:last-child .selmodel {
+          -moz-box-pack: justify;
+          -webkit-box-pack: justify;
+          -o-box-pack: justify;
+          box-pack: justify;
+          justify-content: space-between; }
+          .editSpecifications header ul li:last-child .selmodel .slepic {
+            color: #EA5E5D; }
+            .editSpecifications header ul li:last-child .selmodel .slepic strong {
+              font-weight: normal; }
+          .editSpecifications header ul li:last-child .selmodel .slenum strong {
+            padding-right: 0.3rem;
+            color: #999;
+            font-weight: normal; }
+          .editSpecifications header ul li:last-child .selmodel .slenum a {
+            display: block;
+            width: 1rem;
+            height: 1rem;
+            text-align: center;
+            line-height: 1rem;
+            background: #dbdbdb; }
+          .editSpecifications header ul li:last-child .selmodel .slenum input {
+            display: block;
+            height: 1rem;
+            width: 1.5rem;
+            text-align: center; }
+      .editSpecifications header ul .slepname {
+        line-height: 1rem;
+        height: 2rem;
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden; }
+  .editSpecifications footer button {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    background: #EA5E5D; }
+  .editSpecifications footer button:first-child {
+    background: #666; }
+  .editSpecifications .content {
+    top: 4.1rem;
+    padding: 0.5rem;
+    background: #fff; }
+    .editSpecifications .content p {
+      float: left;
+      margin: 0 0.5rem 0.5rem 0;
+      padding: 0.05rem 0.2rem;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      background: #eee; }
+    .editSpecifications .content .choice {
+      color: #fff;
+      background: #EA5E5D; }
+    .editSpecifications .content::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+
+/*** 弹出层 ***/
+.popup {
+  height: 60%;
+  top: auto;
+  bottom: 0; }
+
+/*** 公共 ***/
+.display_flex, .editSpecifications header ul, .editSpecifications header ul li:last-child, .editSpecifications header ul li:last-child .selmodel, .editSpecifications header ul li:last-child .selmodel .slenum, footer, .product_detail .tit_pice .tit, .product_detail .tit_pice ul, .product_detail .member dl, .product_detail .para_list dl, .product_detail .comments h1, .product_detail .comments dl dt, .product_detail .cdity_copy h1, .member_explain dl dt {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/**** header ***/
+header .pull-right .icon-caininxihuan-shoucang {
+  color: #999; }
+
+header .pull-right .yi_shoucang {
+  color: #F13130; }
+
+/*** footer ***/
+footer p {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+  text-align: center; }
+footer .get_longimg, footer #forward_sale {
+  color: #333;
+  width: 20%; }
+footer .get_longimg {
+  border-right: 1px solid #e7e7e7; }
+footer .open-about {
+  width: 30%;
+  background: #EA5E5D; }
+footer p:last-child {
+  background: #F13130; }
+
+/*** own ***/
+.product_detail .tit_pice {
+  margin-top: 0.3rem;
+  padding: 0.5rem 0;
+  background: #fff; }
+  .product_detail .tit_pice .tit {
+    padding: 0 0.3rem;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    align-items: center; }
+    .product_detail .tit_pice .tit p {
+      padding-right: 0.5rem; }
+      .product_detail .tit_pice .tit p img {
+        width: 2rem;
+        height: 2rem;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%; }
+    .product_detail .tit_pice .tit span {
+      display: block; }
+  .product_detail .tit_pice ul {
+    padding-left: 0.3rem;
+    -moz-box-pack: justify;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    box-pack: justify;
+    justify-content: space-between; }
+    .product_detail .tit_pice ul .pice {
+      font-size: 1rem;
+      color: #eb5e5e; }
+      .product_detail .tit_pice ul .pice s {
+        font-size: 0.7rem;
+        color: #666;
+        padding-left: 0.5rem; }
+    .product_detail .tit_pice ul .express {
+      color: #666;
+      font-size: 0.7rem; }
+    .product_detail .tit_pice ul .brand_name {
+      font-size: 0.7rem;
+      border: solid 1px #999;
+      border-right: none;
+      text-align: center;
+      -moz-border-radius-topleft: 25px;
+      -moz-border-radius-bottomleft: 25px;
+      -webkit-border-top-left-radius: 25px;
+      -webkit-border-bottom-left-radius: 25px;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px; }
+      .product_detail .tit_pice ul .brand_name span {
+        display: block;
+        float: left;
+        width: 3.5rem;
+        overflow: hidden;
+        word-break: keep-all;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+      .product_detail .tit_pice ul .brand_name .iconfont {
+        display: block;
+        float: right;
+        font-size: 0.7rem;
+        color: #666; }
+      .product_detail .tit_pice ul .brand_name::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .product_detail .tit_pice ul .brand_num {
+      color: #666;
+      font-size: 0.7rem;
+      text-align: right;
+      padding-right: 5px; }
+.product_detail .member {
+  background: #fff;
+  padding: 0 0.3rem; }
+  .product_detail .member dl {
+    line-height: normal;
+    padding: 0.4rem 0 0.3rem 0;
+    border-top: 1px solid #efefef;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    align-items: center; }
+    .product_detail .member dl dt {
+      position: relative;
+      width: 15%; }
+      .product_detail .member dl dt img {
+        width: 1rem;
+        height: 1rem;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%; }
+      .product_detail .member dl dt .iconfont {
+        position: absolute;
+        top: -0.5rem;
+        left: 1rem;
+        font-size: 0.85rem; }
+      .product_detail .member dl dt strong, .product_detail .member dl dt span {
+        display: none; }
+    .product_detail .member dl dd:nth-child(2) {
+      width: 25%; }
+    .product_detail .member dl dd:nth-child(3) {
+      width: 30%;
+      color: #eb5e5e; }
+    .product_detail .member dl dd:nth-child(4) {
+      background: #f73470;
+      text-align: center;
+      color: #fff;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      padding: 0.1rem 0.3rem; }
+.product_detail .m_upgrade {
+  padding: 0.5rem 0; }
+  .product_detail .m_upgrade img {
+    display: block; }
+.product_detail .para_list dl {
+  padding: 0.3rem;
+  border-bottom: 1px solid #f5f5f5;
+  background: #fff;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  -o-box-align: center;
+  box-align: center;
+  align-items: center; }
+  .product_detail .para_list dl dt {
+    width: 23%; }
+  .product_detail .para_list dl dd {
+    width: 80%; }
+    .product_detail .para_list dl dd .iconfont {
+      color: #eb5e5e; }
+.product_detail .para_list .margin_bottom {
+  margin-bottom: 0.5rem; }
+.product_detail .para_list .fl_right {
+  float: right; }
+  .product_detail .para_list .fl_right .iconfont {
+    color: #999;
+    font-size: 0.85rem; }
+.product_detail .comments {
+  background: #fff; }
+  .product_detail .comments h1 {
+    font-size: 0.85rem;
+    font-weight: normal;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    -moz-box-pack: justify;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-bottom: 1px solid #f5f5f5; }
+    .product_detail .comments h1 span {
+      display: block; }
+    .product_detail .comments h1 .iconfont {
+      color: #999;
+      font-size: 0.85rem; }
+  .product_detail .comments dl {
+    border-bottom: 1px solid #DADADA;
+    padding: 0.5rem; }
+    .product_detail .comments dl dt {
+      line-height: normal;
+      -moz-box-align: center;
+      -webkit-box-align: center;
+      -o-box-align: center;
+      box-align: center;
+      align-items: center; }
+      .product_detail .comments dl dt span {
+        padding-left: 0.5rem; }
+      .product_detail .comments dl dt img {
+        display: block;
+        width: 2.2rem;
+        height: 2.2rem;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%; }
+    .product_detail .comments dl dd {
+      line-height: normal; }
+    .product_detail .comments dl .com_ner {
+      padding: 0.5rem 0 0.3rem; }
+    .product_detail .comments dl .com_par {
+      color: #666;
+      font-size: 0.65rem;
+      overflow: hidden; }
+    .product_detail .comments dl .com_pic p {
+      float: left;
+      height: 3rem;
+      width: 3rem;
+      margin: 0.3rem 0.3rem 0 0; }
+      .product_detail .comments dl .com_pic p img {
+        width: 100%;
+        height: 100%; }
+    .product_detail .comments dl .com_pic::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+    .product_detail .comments dl:last-child {
+      border: none; }
+.product_detail .cdity_copy {
+  margin: 0.5rem 0;
+  background: #fff; }
+  .product_detail .cdity_copy h1 {
+    font-size: 0.85rem;
+    font-weight: normal;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    -moz-box-pack: justify;
+    -webkit-box-pack: justify;
+    -o-box-pack: justify;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem;
+    border-bottom: 1px solid #f5f5f5; }
+    .product_detail .cdity_copy h1 span {
+      display: block; }
+    .product_detail .cdity_copy h1 .copy_ner {
+      font-size: 0.75rem;
+      padding: 0 0.5rem;
+      border: solid 1px #999;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px; }
+  .product_detail .cdity_copy p {
+    padding: 0.3rem;
+    line-height: normal; }
+.product_detail .detail {
+  background: #fff;
+  padding: 0.5rem; }
+  .product_detail .detail img {
+    display: block; }
+
+/*** 会员说明 ***/
+.member_explain {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  filter: alpha(Opacity=40);
+  -moz-opacity: 0.4;
+  background: rgba(0, 0, 0, 0.4); }
+  .member_explain dl {
+    width: 70%;
+    margin: auto;
+    margin-top: 50%;
+    background: #D61C45;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    position: relative; }
+    .member_explain dl dt {
+      color: #fff;
+      text-align: center;
+      padding-bottom: 0.5rem;
+      -moz-box-pack: center;
+      -webkit-box-pack: center;
+      -o-box-pack: center;
+      -moz-box-align: center;
+      -webkit-box-align: center;
+      -o-box-align: center;
+      box-align: center;
+      align-items: center;
+      justify-content: center; }
+      .member_explain dl dt span {
+        display: block;
+        padding-left: 0.3rem; }
+      .member_explain dl dt img {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%; }
+    .member_explain dl .explain {
+      background: #fff;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      padding: 0.5rem; }
+    .member_explain dl .close {
+      position: absolute;
+      top: 0;
+      right: 0.5rem;
+      color: #fff; }
+
+/*** 商品参数 ***/
+.product_parameter h1 {
+  font-weight: normal !important; }
+.product_parameter .content p {
+  padding: 0.5rem 0.5rem 0 0.5rem; }
+  .product_parameter .content p span {
+    display: inline-block;
+    width: 25%;
+    color: #8B8B8B; }
+
+/*** 商品说明 ***/
+.product_illustra h1 {
+  font-weight: normal !important; }
+.product_illustra .content dl {
+  padding: 0.5rem 0.5rem 0 0.5rem; }
+  .product_illustra .content dl dt {
+    font-size: 0.85rem; }
+    .product_illustra .content dl dt .iconfont {
+      color: #eb5e5e;
+      margin-right: 0.3rem; }
+  .product_illustra .content dl dd {
+    color: #868686;
+    font-size: 0.75rem; }
+
+/*** 八爱长图 ***/
+.popup_get_longimg {
+  height: 100% !important; }
+  .popup_get_longimg .content {
+    background: #fff; }
+    .popup_get_longimg .content .close-popup {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem; }
+      .popup_get_longimg .content .close-popup .svgIcon {
+        font-size: 1.2rem; }
+
+/*# sourceMappingURL=product_detail.css.map */

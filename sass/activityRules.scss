@@ -1,0 +1,159 @@
+@charset "utf-8";
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.activity-rules {
+    .introduce {
+      width: 100%;
+      padding: 0.6rem 1rem 0.6rem 0.8rem;
+      .rotate {
+        display: inline-block;
+        background: #fb4f70;
+        width: 1rem;
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        color: #fff;
+        display: block;
+        transform:rotate(45deg);
+        -ms-transform:rotate(45deg); 	/* IE 9 */
+        -moz-transform:rotate(45deg); 	/* Firefox */
+        -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+        -o-transform:rotate(45deg); 	/* Opera */
+        float: left;
+        position: relative;
+        span {
+          display: block;
+          transform:rotate(-45deg);
+          -ms-transform:rotate(-45deg); 	/* IE 9 */
+          -moz-transform:rotate(-45deg); 	/* Firefox */
+          -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+          -o-transform:rotate(-45deg); 	/* Opera */
+          font-size: 0.8rem;
+        }
+      }
+      u {
+        text-decoration: none;
+        font-size: 0.65rem;
+        color: #222222;
+        line-height: 0.8rem;
+        margin-left: 0.5rem;
+        width: 88%;
+        float: left;
+        position: relative;
+        top: -0.1rem;
+      }
+      &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+    }
+  /**************领券条件******************/
+  .get-conditions {
+    background: #fff;
+    dl {
+      border-bottom: 1px solid #dddddd;
+      font-size: 0.75rem;
+      color: #444444;
+      dt {
+        width: 62%;
+        text-align: center;
+        height: 2rem;
+        line-height: 2rem;
+        float: left;
+        strong {
+          font-size: 0.8rem;
+          padding: 0 0.1rem;
+        }
+      }
+      dd {
+        width: 38%;
+        text-align: center;
+        height: 2rem;
+        line-height: 2rem;
+        float: left;
+        border-left: 1px solid #dddddd;
+      }
+      &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+    }
+    dl:first-child {
+      color: #fff;
+      font-weight: 500;
+      background: #f88a9d;
+      font-size: 0.8rem;
+      dd {
+        border-left: 1px solid #fff;
+      }
+    }
+  }
+  /**************时效******************/
+  .time-limit {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 0.8rem;
+    color: #fb4f70;
+    font-size: 0.7rem;
+  }
+/**************规则列表******************/
+  .rules-list {
+    padding: .6rem 1rem 0.6rem 0.8rem;
+    background: #fff;
+    dl {
+      width: 100%;
+      padding: 0.4rem 0;
+      .rotate {
+        display: inline-block;
+        background: #fb4f70;
+        width: 1rem;
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        color: #fff;
+        display: block;
+        transform:rotate(45deg);
+        -ms-transform:rotate(45deg); 	/* IE 9 */
+        -moz-transform:rotate(45deg); 	/* Firefox */
+        -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+        -o-transform:rotate(45deg); 	/* Opera */
+        float: left;
+        position: relative;
+        span {
+          display: block;
+          transform:rotate(-45deg);
+          -ms-transform:rotate(-45deg); 	/* IE 9 */
+          -moz-transform:rotate(-45deg); 	/* Firefox */
+          -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+          -o-transform:rotate(-45deg); 	/* Opera */
+          font-size: 0.8rem;
+        }
+      }
+      dd {
+        font-size: 0.65rem;
+        color: #222222;
+        line-height: 0.8rem;
+        margin-left: 0.5rem;
+        width: 88%;
+        float: left;
+        position: relative;
+        top: -0.1rem;
+      }
+      &::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+      }
+    }
+  }
+}

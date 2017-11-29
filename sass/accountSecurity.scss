@@ -1,0 +1,68 @@
+@charset "utf-8";
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.account-security {
+  .account-security-header {
+    border-top: 1px solid #c2c2c2;
+    padding: 0.5rem 0.8rem;
+    background: white;
+    .user-head {
+      float: left;
+      height: 2.6rem;
+      width: 2.6rem;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+    }
+    .user-info {
+      float: left;
+      margin-left: 0.5rem;
+      padding-top: 0.2rem;
+      h5 {
+        font-size: 0.73rem;
+        color: #222222;
+        width: 70%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      span {
+        color: #888888;
+        font-size: 0.65rem;
+        padding-top: 0.3rem;
+        u {
+          text-decoration: none;
+        }
+      }
+    }
+    &::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+  }
+  /********************user-info-settings*******************/
+  .user-info-settings {
+    margin-top: 0.5rem;
+    padding-left: 0.8rem;
+    width: 100%;
+    background: white;
+    p {
+      padding: 0.5rem 0.5rem 0.5rem 0;
+      width: 100%;
+      font-size: 0.75rem;
+      color: #222222;
+      border-bottom: 1px solid #eeeeee;
+      span {
+        float: right;
+        color: #888888;
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

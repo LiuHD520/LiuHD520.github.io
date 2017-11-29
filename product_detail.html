@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title class="title01"></title>
+    <meta name="Keywords" content="品牌街,网购,购物分享,淘宝购物,全网购物，八爱网" />
+    <meta name="description" class="meta02" content="" />
+    <link rel="shortcut icon" href="/img/baai_logo_icon.ico" />
+    <!--SUI Mobile-->
+    <link rel="shortcut icon" href="/img/baai_logo_icon.ico" />
+    <!--global-->
+    <link rel="stylesheet" href="/frame/sm.min.css">
+    <link rel="stylesheet" href="/css/global.css" />
+    <!--own-->
+    <link rel="stylesheet" type="text/css" href="/iconfont/iconfont.css">
+    <link rel="stylesheet" href="/css/product_detail.css" />
+</head>
+<body data-productId="">
+<div class="page-group">
+    <!-- 页头 -->
+    <header class="bar bar-nav">
+        <h6 class="pull-right"><i class="iconfont icon-caininxihuan-shoucang"></i></h6>
+        <h6 class="pull-left" onClick="javascript:history.back(-1);"><i class="iconfont icon-fanhui"></i></h6>
+        <h1 class="title">商品详情</h1>
+    </header>
+    <!-- 页尾 -->
+    <footer class="bar bar-tab">
+        <!--<p class="get_longimg">分享</p>-->
+        <p id="forward_sale" style="width: 33.333%">转发售卖</p>
+        <p class="open-about" style="width: 33.333%">加入购物车</p>
+        <p class="open-about" style="width: 33.333%">立即下单</p>
+    </footer>
+    <!--呼吸按钮-->
+    <div class="breathing-btn">
+        <span class="global_show">. . .</span>
+        <div class="global_breathing">
+            <ul>
+                <li>
+                    <a class="tab-item" href="index.html">
+                        <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-homepage"></use></svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="tab-item" href="shopping_cart.html">
+                        <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-gouwuche2"></use></svg>
+                    </a>
+                </li>
+                <li>
+                    <a class="tab-item selected" href="myself.html">
+                        <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-addressbook"></use></svg>
+                    </a>
+                </li>
+                <li class="global_hidd">
+                    x
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 内容区 -->
+    <div class="content product_detail">
+        <div class="banner-prodraw">
+            <div id='mySwipe' class='swipe'>
+                <div class='swipe-wrap'></div>
+            </div>
+            <!--<div class="swipe-wrap-count"></div>-->
+            <div class="swipe-wrap-list"></div>
+        </div>
+        <div class="tit_pice">
+            <div class="tit">
+                <!--<p><a href="countrie_pavilion.html"><img src="/img/countrie/canada.jpg" /></a></p>-->
+                <span id="productName">SUM37度呼吸空气光透遮瑕气垫</span>
+            </div>
+            <ul>
+                <li>
+                    <p class="pice">￥<span id="showPrice">180.00</span><s>￥<span id="origPrice">220.00</span></s></p>
+                    <p class="express">库存：<span id="express_stock">152</span> 已售：<span id="express_num">300</span> 快递：不包邮</p>
+                </li>
+                <li>
+                    <p class="brand_name"><span id="brandName" data-brandId="">SUM37</span><i class="iconfont icon-gengduo"></i></p>
+                    <p class="brand_num">6件在售商品</p>
+                </li>
+            </ul>
+        </div>
+        <!--<div class="member">-->
+            <!--<dl>-->
+                <!--<dt class="open_member_explain">-->
+                    <!--<img src="/img/myself/vip1.jpg" />-->
+                    <!--<i class="iconfont icon-yiwen"></i>-->
+                    <!--<strong>普通会员</strong>-->
+                    <!--<span>消费送积分：每次购物付款，消费多少送多少，积分可至【我】【积分兑换】使用。购买商品可享受会员零售价，还可享受会员 专属特权。</span>-->
+                <!--</dt>-->
+                <!--<dd>1件</dd>-->
+                <!--<dd>￥180.00</dd>-->
+            <!--</dl>-->
+            <!--<dl>-->
+                <!--<dt class="open_member_explain">-->
+                    <!--<img src="/img/myself/vip2.jpg" />-->
+                    <!--<i class="iconfont icon-yiwen"></i>-->
+                    <!--<strong>vip会员情</strong>-->
+                    <!--<span>充值299元/年，可升级为年度vip，在数量区间内可享受优惠折扣，同时可点亮vip会员图标与享受专属会员特权。</span>-->
+                <!--</dt>-->
+                <!--<dd>2-10件</dd>-->
+                <!--<dd>￥170.00</dd>-->
+                <!--<dd>9.5折</dd>-->
+            <!--</dl>-->
+            <!--<dl>-->
+                <!--<dt class="open_member_explain">-->
+                    <!--<img src="/img/myself/vip3.jpg" />-->
+                    <!--<i class="iconfont icon-yiwen"></i>-->
+                    <!--<strong>黄金会员</strong>-->
+                    <!--<span>vip会员情况下，升级为“黄金会员”不仅可享受平台内比vip会员更高数量区间内价格优惠折扣，更有专属标志会专属会员特权。</span>-->
+                <!--</dt>-->
+                <!--<dd>11-30件</dd>-->
+                <!--<dd>￥165.00</dd>-->
+                <!--<dd>9.0折</dd>-->
+            <!--</dl>-->
+            <!--<dl>-->
+                <!--<dt class="open_member_explain">-->
+                    <!--<img src="/img/myself/vip4.jpg" />-->
+                    <!--<i class="iconfont icon-yiwen"></i>-->
+                    <!--<strong>白金会员</strong>-->
+                    <!--<span>黄金会员情况下，升级为“白金会员”不仅可享受平台内比黄金会员更高的白金会员购买数量区间内价格优惠折扣，更有专属标志会专属会员特权。</span>-->
+                <!--</dt>-->
+                <!--<dd>31-50件</dd>-->
+                <!--<dd>￥155.00</dd>-->
+                <!--<dd>8.9折</dd>-->
+            <!--</dl>-->
+            <!--<dl>-->
+                <!--<dt class="open_member_explain">-->
+                    <!--<img src="/img/myself/vip5.jpg" />-->
+                    <!--<i class="iconfont icon-yiwen"></i>-->
+                    <!--<strong>黑金会员</strong>-->
+                    <!--<span>白金会员情况下，升级为“黑金会员”可享受平台购买数量区间内最高价格优惠，更有专属标志会专属会员特权。</span>-->
+                <!--</dt>-->
+                <!--<dd>51-100件</dd>-->
+                <!--<dd>￥135.00</dd>-->
+                <!--<dd>8.8折</dd>-->
+            <!--</dl>-->
+        <!--</div>-->
+        <!--<div class="m_upgrade">-->
+            <!--<a href="member.html"><img src="/img/member.jpg" /></a>-->
+        <!--</div>-->
+        <div class="para_list">
+            <dl class="open-about-illustra">
+                <dt>说明</dt>
+                <dd>
+                    <span><i class="iconfont icon-xiangqingye-shuoming"></i>一件代发</span>
+                    <span><i class="iconfont icon-xiangqingye-shuoming"></i>素材包服务</span>
+                    <span class="fl_right"><i class="iconfont icon-gengduo"></i></span>
+                </dd>
+            </dl>
+            <!--<dl class="margin_bottom">-->
+                <!--<dt>积分</dt>-->
+                <!--<dd>-->
+                    <!--<span>购买最高可获得<span id="productScore">180</span>积分</span>-->
+                    <!--<span class="fl_right"><i class="iconfont icon-gengduo"></i></span>-->
+                <!--</dd>-->
+            <!--</dl>-->
+            <!--<dl class="margin_bottom">-->
+                <!--<dt>优惠券</dt>-->
+                <!--<dd>-->
+                    <!--<span class="fl_right"><i class="iconfont icon-gengduo"></i></span>-->
+                <!--</dd>-->
+            <!--</dl>-->
+            <dl class="margin_bottom open-about-par">
+                <dt>产品参数</dt>
+                <dd>
+                    <span class="fl_right"><i class="iconfont icon-gengduo"></i></span>
+                </dd>
+            </dl>
+            <!--<dl class="margin_bottom open-about">-->
+                <!--<dt>请选择</dt>-->
+                <!--<dd>-->
+                    <!--<span>规格、型号</span>-->
+                    <!--<span class="fl_right"><i class="iconfont icon-gengduo"></i></span>-->
+                <!--</dd>-->
+            <!--</dl>-->
+        </div>
+        <div class="comments">
+            <h1>
+                <span>买家评价</span>
+                <span id="evaluation">更多<i class="iconfont icon-gengduo"></i></span>
+            </h1>
+            <!--<dl>-->
+                <!--<dt>-->
+                    <!--<img src="/img/myself/user_photo.jpg" />-->
+                    <!--<span>木**运</span>-->
+                <!--</dt>-->
+                <!--<dd class="com_ner">这款面膜用着不错，我是过敏体质用着也没有别的反应，总的来说不错。</dd>-->
+                <!--<dd class="com_par">今天 15:30 规格10片</dd>-->
+                <!--<dd class="com_pic">-->
+                    <!--<p><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></p>-->
+                    <!--<p><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></p>-->
+                    <!--<p><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></p>-->
+                <!--</dd>-->
+            <!--</dl>-->
+        </div>
+        <div class="cdity_copy">
+            <h1><span>商品复制</span><span class="copy_ner" data-clipboard-text="馥蕾诗（Fresh）为双唇带来轻柔甜美的粉红色，润泽、柔软、呵护唇部肌肤。" data-clipboard-action="copy">复制</span></h1>
+            <p>馥蕾诗（Fresh）为双唇带来轻柔甜美的粉红色，润泽、柔软、呵护唇部肌肤。</p>
+        </div>
+        <div class="detail" id="product_detail">
+            这里是详情详情页
+        </div>
+    </div>
+    <!-- 规格、型号 -->
+    <div class="popup popup-about">
+        <div class="editSpecifications">
+            <header class="bar bar-nav">
+                <ul data-productId="">
+                    <li><img src="http://n.baai.com/baai/uploadfile/2017/04/10/201704101434597511.jpg" /></li>
+                    <li>
+                        <p class="slepname">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="selmodel">
+                            <span class="slepic">￥<strong>96.00</strong></span>
+                            <span class="slenum global-number">
+                                <strong>库存：8658</strong>
+                                <a href="javascript:;">-</a>
+                                <input type="text" value="1" />
+                                <a href="javascript:;">+</a>
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </header>
+            <footer class="bar bar-tab">
+                <button class="close-popup">取消</button>
+                <button class="close-popup" id="confirm">确定</button>
+            </footer>
+            <div class="content global-specification">
+                <p data-id="" data-price="" data-stock="">规格、参数</p>
+            </div>
+        </div>
+    </div>
+    <!--商品参数-->
+    <div class="popup popup-about-par">
+        <div class="product_parameter">
+            <header class="bar bar-nav">
+                <h1 class="title">产品参数</h1>
+            </header>
+            <footer class="bar bar-tab">
+                <button class="footerButton close-popup">我知道了</button>
+            </footer>
+            <div class="content">
+                <p><span>商品名称</span>馥蕾诗(Fresh)澄糖滋润护唇膏</p>
+            </div>
+        </div>
+    </div>
+    <!--说明-->
+    <div class="popup popup-about-illustra">
+        <div class="product_illustra">
+            <header class="bar bar-nav">
+                <h1 class="title">说明</h1>
+            </header>
+            <footer class="bar bar-tab">
+                <button class="footerButton close-popup">我知道了</button>
+            </footer>
+            <div class="content">
+                <dl>
+                    <dt><i class="iconfont icon-xiangqingye-shuoming"></i>专柜正品</dt>
+                    <dd>该商品由品牌授权，保证品牌质量</dd>
+                </dl>
+                <dl>
+                    <dt><i class="iconfont icon-xiangqingye-shuoming"></i>质量保证</dt>
+                    <dd>“八爱”已接收中国产品质量追溯系统（国家防伪工程技术研究中心产品追溯委员会官方平台）全程监督<dd>
+                </dl>
+                <dl>
+                    <dt><i class="iconfont icon-xiangqingye-shuoming"></i>一件代发</dt>
+                    <dd>“八爱”为您提供“一件代发”服务<dd>
+                </dl>
+                <dl>
+                    <dt><i class="iconfont icon-xiangqingye-shuoming"></i>素材包服务</dt>
+                    <dd>“八爱”为该商品提供营销方案、商品详情图、授权证<dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!--八爱长图-->
+    <div class="popup popup_get_longimg">
+        <!-- 页尾 -->
+        <footer class="bar bar-tab">
+            <button class="footerButton">长按图片，保存至相册</button>
+        </footer>
+        <!-- 内容区 -->
+        <div class="content">
+            <div class="close-popup"><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-androidcancel"></use></svg></div>
+            <div id="global-sharing"></div>
+        </div>
+    </div>
+    <!--提示弹框-->
+    <div class="member_explain" style="display: none">
+        <dl>
+            <dt><img src="/img/myself/vip1.jpg" /><span>会员</span></dt>
+            <dd class="explain">说明</dd>
+            <dd class="close"><i class="iconfont icon-androidcancel"></i></dd>
+        </dl>
+    </div>
+</div>
+<div id="global-qrcode"></div>
+</body>
+</html>
+<!--global-->
+<script type='text/javascript' src='/frame/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='/frame/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='/frame/zepto.cookie.js' charset='utf-8'></script><!--cookie-->
+<script type='text/javascript' src="/iconfont/iconfont.js" charset='utf-8'></script><!--iconfont-->
+<script type='text/javascript' src='/frame/swipe.js'></script><!--主图-->
+<script type='text/javascript' src='/frame/clipboard.min.js' charset='utf-8'></script><!--复制-->
+<script type="text/javascript" src="/frame/qrcode.min.js"></script><!--QRCODE-->
+<script type='text/javascript' src='/js/global.js' charset='utf-8'></script>
+<!--own-->
+<script type='text/javascript' src='/js/product_detail.js'></script>

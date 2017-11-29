@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.activity-rules {
+  /**************领券条件******************/
+  /**************时效******************/
+  /**************规则列表******************/ }
+  .activity-rules .introduce {
+    width: 100%;
+    padding: 0.6rem 1rem 0.6rem 0.8rem; }
+    .activity-rules .introduce .rotate {
+      display: inline-block;
+      background: #fb4f70;
+      width: 1rem;
+      height: 1rem;
+      line-height: 1rem;
+      text-align: center;
+      color: #fff;
+      display: block;
+      transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      /* IE 9 */
+      -moz-transform: rotate(45deg);
+      /* Firefox */
+      -webkit-transform: rotate(45deg);
+      /* Safari 和 Chrome */
+      -o-transform: rotate(45deg);
+      /* Opera */
+      float: left;
+      position: relative; }
+      .activity-rules .introduce .rotate span {
+        display: block;
+        transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        /* IE 9 */
+        -moz-transform: rotate(-45deg);
+        /* Firefox */
+        -webkit-transform: rotate(-45deg);
+        /* Safari 和 Chrome */
+        -o-transform: rotate(-45deg);
+        /* Opera */
+        font-size: 0.8rem; }
+    .activity-rules .introduce u {
+      text-decoration: none;
+      font-size: 0.65rem;
+      color: #222222;
+      line-height: 0.8rem;
+      margin-left: 0.5rem;
+      width: 88%;
+      float: left;
+      position: relative;
+      top: -0.1rem; }
+    .activity-rules .introduce::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .activity-rules .get-conditions {
+    background: #fff; }
+    .activity-rules .get-conditions dl {
+      border-bottom: 1px solid #dddddd;
+      font-size: 0.75rem;
+      color: #444444; }
+      .activity-rules .get-conditions dl dt {
+        width: 62%;
+        text-align: center;
+        height: 2rem;
+        line-height: 2rem;
+        float: left; }
+        .activity-rules .get-conditions dl dt strong {
+          font-size: 0.8rem;
+          padding: 0 0.1rem; }
+      .activity-rules .get-conditions dl dd {
+        width: 38%;
+        text-align: center;
+        height: 2rem;
+        line-height: 2rem;
+        float: left;
+        border-left: 1px solid #dddddd; }
+      .activity-rules .get-conditions dl::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+    .activity-rules .get-conditions dl:first-child {
+      color: #fff;
+      font-weight: 500;
+      background: #f88a9d;
+      font-size: 0.8rem; }
+      .activity-rules .get-conditions dl:first-child dd {
+        border-left: 1px solid #fff; }
+  .activity-rules .time-limit {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 0.8rem;
+    color: #fb4f70;
+    font-size: 0.7rem; }
+  .activity-rules .rules-list {
+    padding: .6rem 1rem 0.6rem 0.8rem;
+    background: #fff; }
+    .activity-rules .rules-list dl {
+      width: 100%;
+      padding: 0.4rem 0; }
+      .activity-rules .rules-list dl .rotate {
+        display: inline-block;
+        background: #fb4f70;
+        width: 1rem;
+        height: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        color: #fff;
+        display: block;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        -moz-transform: rotate(45deg);
+        /* Firefox */
+        -webkit-transform: rotate(45deg);
+        /* Safari 和 Chrome */
+        -o-transform: rotate(45deg);
+        /* Opera */
+        float: left;
+        position: relative; }
+        .activity-rules .rules-list dl .rotate span {
+          display: block;
+          transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          /* IE 9 */
+          -moz-transform: rotate(-45deg);
+          /* Firefox */
+          -webkit-transform: rotate(-45deg);
+          /* Safari 和 Chrome */
+          -o-transform: rotate(-45deg);
+          /* Opera */
+          font-size: 0.8rem; }
+      .activity-rules .rules-list dl dd {
+        font-size: 0.65rem;
+        color: #222222;
+        line-height: 0.8rem;
+        margin-left: 0.5rem;
+        width: 88%;
+        float: left;
+        position: relative;
+        top: -0.1rem; }
+      .activity-rules .rules-list dl::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+
+/*# sourceMappingURL=activityRules.css.map */

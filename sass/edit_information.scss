@@ -1,0 +1,50 @@
+@charset "utf-8";
+/*** 公共 ***/
+.display_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+/***********own**************/
+.edit-form {
+  ul {
+    background: #fff;
+    li {
+      padding: 0 0.5rem;
+      line-height: 2.5rem;
+      border-bottom: 1px solid #e7e7e7;
+      @extend .display_flex;
+      span {
+        display: block;
+        width: 20%;
+      }
+      p {
+        width: 80%;
+        input {
+          display: block;
+          width: 100%;
+          height: 2.5rem;
+          line-height: 2.5rem;
+        }
+        strong {
+          font-weight: normal;
+        }
+        i {
+          font-style: normal;
+          color: #d0d4d7;
+          padding: 0 0.3rem;
+        }
+      }
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+  .yanse {
+    color: #FB4B49;
+    font-weight: bold;
+  }
+}

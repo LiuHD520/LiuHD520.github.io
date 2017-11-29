@@ -1,0 +1,75 @@
+/*** own ***/
+.active {
+  /* Swipe 2 required styles */
+  /* END required styles */ }
+  .active h1 {
+    font-size: 1rem;
+    text-align: center;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-weight: normal;
+    background: #ee3e1b;
+    width: 50%;
+    margin: 0.5rem auto;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    color: #fff; }
+  .active .over {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem; }
+    .active .over img {
+      width: 10%; }
+  .active .beancurd_cube dl {
+    width: 49%;
+    margin-bottom: 2%; }
+  .active .beancurd_cube dl:nth-child(even) {
+    margin-left: 2%; }
+  .active .product_list dl dd .plname {
+    line-height: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    word-break: normal;
+    display: block; }
+  .active .product_list .plprice {
+    padding-top: 0.3rem;
+    align-items: center; }
+    .active .product_list .plprice strong {
+      display: block; }
+    .active .product_list .plprice span {
+      display: block;
+      border: 1px solid #ff1a18;
+      border-radius: 2px;
+      font-size: 0.6rem;
+      padding: 0 2px; }
+      .active .product_list .plprice span a {
+        color: #ff1a18; }
+  .active .banner {
+    position: relative; }
+  .active .banner .swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative; }
+  .active .banner.swipe-wrap {
+    overflow: hidden;
+    position: relative; }
+  .active .banner .swipe-wrap > a {
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative; }
+  .active .banner .prev_next, .active .banner .prev, .active .banner .next {
+    position: absolute;
+    top: 40%; }
+    .active .banner .prev_next .svgIcon, .active .banner .prev .svgIcon, .active .banner .next .svgIcon {
+      color: #fff;
+      filter: alpha(Opacity=50);
+      -moz-opacity: 0.5;
+      opacity: 0.5; }
+  .active .banner .prev {
+    left: 0.5rem; }
+  .active .banner .next {
+    right: 0.5rem; }
+
+/*# sourceMappingURL=active.css.map */

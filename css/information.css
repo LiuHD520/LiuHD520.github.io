@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/*** 公共 ***/
+.display_flex, .information .info-header, .information .info-header dl, .information .info-other dl {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex; }
+
+/***********own**************/
+.information .info-header {
+  padding: 0.5rem;
+  background: #fff;
+  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
+  -o-box-pack: justify;
+  box-pack: justify;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  -o-box-align: center;
+  box-align: center;
+  justify-content: space-between;
+  align-items: center; }
+  .information .info-header dl {
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    -o-box-align: center;
+    box-align: center;
+    align-items: center; }
+    .information .info-header dl dt {
+      width: 3rem;
+      position: relative; }
+      .information .info-header dl dt img {
+        display: block;
+        -moz-border-radius: 100%;
+        -webkit-border-radius: 100%;
+        border-radius: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%; }
+      .information .info-header dl dt input {
+        display: block;
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%; }
+      .information .info-header dl dt::after {
+        content: '';
+        display: block;
+        width: 100%;
+        padding-top: 100%; }
+    .information .info-header dl dd {
+      padding-left: 0.3rem; }
+      .information .info-header dl dd p:first-child span {
+        color: #fc9c8e; }
+.information .info-other dl {
+  line-height: 2.2rem;
+  padding: 0 0.5rem;
+  background: #fff;
+  border-top: 1px solid #e7e7e7;
+  -moz-box-pack: justify;
+  -webkit-box-pack: justify;
+  -o-box-pack: justify;
+  box-pack: justify;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  -o-box-align: center;
+  box-align: center;
+  justify-content: space-between;
+  align-items: center; }
+  .information .info-other dl dd i {
+    padding-left: 0.3rem; }
+.information .info-other .dlnone {
+  margin-top: 0.5rem;
+  border: none; }
+.information .drop-out {
+  display: block;
+  color: #fff;
+  background: #FB4B49;
+  width: 80%;
+  margin: auto;
+  margin-top: 2.2rem;
+  line-height: 2rem;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  text-align: center; }
+
+/*# sourceMappingURL=information.css.map */

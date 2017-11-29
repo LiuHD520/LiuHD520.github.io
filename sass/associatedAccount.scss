@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.associated-account {
+    p {
+      font-size: 0.7rem;
+      color: #888888;
+      padding: 0.5rem 0.8rem;
+    }
+  .account-number {
+    background: white;
+    padding-left: 0.8rem;
+    list-style: none;
+    li {
+      padding: 0.5rem 0.5rem;
+      padding-left: 0;
+      border-bottom: 1px solid #eeeeee;
+      font-size: 0.75rem;
+      .svgIcon {
+        font-size: 1.2rem;
+      }
+      span {
+        color: #222222;
+        position: relative;
+        left: 0.2rem;
+        top: -0.15rem;
+      }
+      strong {
+        float: right;
+        color: #888888;
+        font-weight: 500;
+        .svgIcon {
+          font-size: 1rem;
+          color: #d6d6d6;
+          position: relative;
+          top: 0.1rem;
+        }
+      }
+      .binding {
+        color: #222222;
+      }
+    }
+  }
+
+}

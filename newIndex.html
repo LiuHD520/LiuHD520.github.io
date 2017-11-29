@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <title>八爱网-购物返利，品牌专卖，促销折扣,优惠券,返利, 海淘特卖惠，一站搞定！BAAI.com</title>
+    <meta name="Keywords" content="BAAI,八爱网,优惠券,打折,返利,选购,逛街,海淘特卖惠，品牌导购" />
+    <meta name="description" content="八爱网致力于提供方便快捷的海淘美妆、品牌分享，美妆分享、购物返利等一站式导购、省钱服务。全球美妆商品一网打尽，多重优惠一次尽享，多种服务八爱网一站搞定。" />
+    <link rel="shortcut icon" href="/img/baai_logo_icon.ico" />
+    <!--SUI Mobile-->
+    <link rel="stylesheet" href="/frame/sm.min.css">
+    <script type='text/javascript' src='/frame/zepto.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='/frame/zepto.cookie.js' charset='utf-8'></script>
+    <!--公共-->
+    <link rel="stylesheet" type="text/css" href="/iconfont/iconfont.css">
+    <script src="/iconfont/iconfont.js"></script>
+    <link rel="stylesheet" href="/css/global.css" />
+    <script type='text/javascript' src='/js/global.js' charset='utf-8'></script>
+    <!--own-->
+    <link rel="stylesheet" href="/css/newIndex.css" />
+</head>
+<body>
+<div class="page-group">
+    <!-- 页尾 -->
+    <footer class="bar bar-tab">
+        <a class="tab-item selected" href="newIndex.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-shouye-weitianse"></use></svg>
+            <span class="tab-label">首页</span>
+        </a>
+        <a class="tab-item" href="classify.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-fenlei-weitianse"></use></svg>
+            <span class="tab-label">分类</span>
+        </a>
+        <a class="tab-item" href="join.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-jiamengba"></use></svg>
+            <span class="tab-label">招商加盟</span>
+        </a>
+        <a class="tab-item" href="shopping_cart.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-gouwuche2"></use></svg>
+            <span class="tab-label">购物车</span>
+        </a>
+        <a class="tab-item" href="myself.html">
+            <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-user"></use></svg>
+            <span class="tab-label">我</span>
+        </a>
+    </footer>
+    <!-- 内容区 -->
+    <div class="content new-index">
+        <div class="new-index-header">
+            <p>
+                <span><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-saoyisao"></use></svg></span>
+                <u>扫一扫</u>
+            </p>
+            <h5 onClick="javascript:window.location.href='search_page.html';">
+                <span><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-sousuo"></use></svg></span>
+                <input type="text" placeholder="你想要的都在这">
+            </h5>
+            <p>
+                <span><svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-erweimafukuan"></use></svg></span>
+                <u>付款码</u>
+            </p>
+        </div>
+        <!--轮播-->
+        <div class="banner-prodraw">
+            <div id='mySwipe' class='swipe'>
+                <div class='swipe-wrap'>
+                      <a href="#"><img src="http://n.baai.com/baai/uploadfile/2017/06/02/201706020722419025.jpg" /></a>
+                </div>
+            </div>
+            <div class="swipe-wrap-list"></div>
+        </div>
+        <!--分类-->
+        <div class="new-index-classify">
+            <div class="classify">
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-meironghufu"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>护肤</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-caizhuang"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>彩妆</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-muying1"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>母婴</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-xihu1"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>洗护</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-huli"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>护理</strong>
+                        </dd>
+                    </a>
+                </dl>
+            </div>
+            <div class="classify02">
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-xiangshuicaizhuang"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>香水</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-icon"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>清洁</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-shipin"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>食品</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-zongbang-nanshi"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>男士专区</strong>
+                        </dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <span>
+                                <svg class="svgIcon" aria-hidden="true"><use xlink:href="#icon-fenleigengduo"></use></svg>
+                            </span>
+                        </dt>
+                        <dd>
+                            <strong>更多分类</strong>
+                        </dd>
+                    </a>
+                </dl>
+            </div>
+        </div>
+        <!--热门活动-->
+        <div class="new-index-activities">
+            <h5 class="common-h5">
+            </h5>
+            <dl class="activities">
+                <dt>
+                    <h4>限量活动</h4>
+                    <p>
+                        <span>00</span>
+                        :
+                        <span>45</span>
+                        :
+                        <span>20</span>
+                    </p>
+                    <h6>每天三个整点，极速秒杀</h6>
+                    <u><img src="http://n.baai.com/baai/uploadfile/2017/11/22/201711220617162182.jpg"></u>
+                </dt>
+                <dd>
+                    <p>
+                        <strong>
+                            <i>极速火拼</i>
+                            <u>海外零食一元强</u>
+                        </strong>
+                        <img src="http://n.baai.com/baai/uploadfile/2017/11/24/20171124092209348.jpg">
+                    </p>
+                    <p>
+                        <strong>
+                            <i>爆款清单</i>
+                            <u>自然堂直降30元</u>
+                        </strong>
+                        <img src="http://n.baai.com/baai/uploadfile/2017/11/24/20171124092230983.jpg">
+                    </p>
+                </dd>
+            </dl>
+        </div>
+        <!--&lt;!&ndash;品类专场&ndash;&gt;-->
+        <!--<div class="special-category">-->
+            <!--<h5 class="common-h5">-->
+                <!--<span>更多</span>-->
+            <!--</h5>-->
+            <!--<ul class="category">-->
+                <!--<li>-->
+                    <!--<strong>零食专场</strong>-->
+                    <!--<img src=""/>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<strong>母婴专场</strong>-->
+                    <!--<img src=""/>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<strong>彩妆专场</strong>-->
+                    <!--<img src=""/>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<strong>护肤专场</strong>-->
+                    <!--<img src=""/>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<strong>洗护专场</strong>-->
+                    <!--<img src=""/>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<strong>清洁专场</strong>-->
+                    <!--<img src=""/>-->
+                <!--</li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <!--拼团抢购-->
+        <div class="spell-group-buying">
+            <h5 class="common-h5">
+            </h5>
+            <div class="spell-group-buying-product-list">
+                <dl>
+                    <dt>
+                        <img src="http://img0.imgtn.bdimg.com/it/u=1914612135,898374477&fm=27&gp=0.jpg" />
+                        <span>10人团</span>
+                    </dt>
+                    <dd>
+                        <p class="p-name">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="p-price">￥<strong>19</strong>
+                            <i>￥59元</i>
+                            <i>已团6人</i>
+                        </p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <img src="http://img0.imgtn.bdimg.com/it/u=206966703,68622201&fm=27&gp=0.jpg" />
+                        <span>39人团</span>
+                    </dt>
+                    <dd>
+                        <p class="p-name">韩国JAYJUN膜贴锁肤水面膜面霜真的好用</p>
+                        <p class="p-price">￥<strong>199</strong>
+                            <i>￥135</i>
+                            <i>已团16人</i>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!--爆款面膜-->
+        <div class="blasting-face-film">
+            <h5 class="common-h5">
+            </h5>
+            <div class="new-index-dl-common">
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/20171129061705592.jpg" />
+                        </dt>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290617266621.jpg" />
+                        </dt>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290617422.jpg" />
+                        </dt>
+                    </a>
+                </dl>
+            </div>
+        </div>
+        <!--洗护沐浴-->
+        <div class="wash-protect-bath">
+            <h5 class="common-h5">
+            </h5>
+            <div class="new-index-dl-common">
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290622543926.jpg" />
+                        </dt>
+                        <dd>儿童洗发沐浴露</dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290623198504.jpg" />
+                        </dt>
+                        <dd>润膏马油洗发水</dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290623324987.jpg" />
+                        </dt>
+                        <dd>洗护二合一洗发水</dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290623484769.jpg" />
+                        </dt>
+                        <dd>彩色修容粉饼</dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290624123257.jpg" />
+                        </dt>
+                        <dd>无暇底妆</dd>
+                    </a>
+                </dl>
+                <dl>
+                    <a href="#">
+                        <dt>
+                            <img src="http://n.baai.com/baai/uploadfile/2017/11/29/201711290624272956.jpg" />
+                        </dt>
+                        <dd>JEJU柑橘洗发水</dd>
+                    </a>
+                </dl>
+            </div>
+        </div>
+        <!--魅力彩妆-->
+        <div class="cosmetics">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--母婴保健-->
+        <div class="maternal-infant-care">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--热销面霜-->
+        <div class="hot-face-cream">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--优质气垫-->
+        <div class="high-air-cushion">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--生活日化-->
+        <div class="daily-life">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--护肤精选-->
+        <div class="skin-of-selected">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--品质大牌-->
+        <div class="big-shop-sign">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--身体女性-->
+        <div class="female-body">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--美味零食-->
+        <div class="delicious-snacks">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--美容服务-->
+        <div class="beauty-service">
+            <h5 class="common-h5">
+            </h5>
+        </div>
+        <!--猜你喜欢-->
+        <div class="guess-you-like">
+            <h5 class="common-h5">
+            </h5>
+            <div class="new_index_product_list">
+                <dl>
+                    <dt><img src="http://img3.imgtn.bdimg.com/it/u=1378712746,4083319875&amp;fm=27&amp;gp=0.jpg" /></dt>
+                    <dd>
+                        <p class="p-name">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="p-price">￥<strong>199.00</strong></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="http://img2.imgtn.bdimg.com/it/u=2183119587,3811072293&fm=200&gp=0.jpg" /></dt>
+                    <dd>
+                        <p class="p-name">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="p-price">￥<strong>199.00</strong></p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="http://img3.imgtn.bdimg.com/it/u=1378712746,4083319875&amp;fm=27&amp;gp=0.jpg" /></dt>
+                    <dd>
+                        <p class="p-name">韩国JAYJUN水光针樱花面膜三部曲10片美白补水保湿抗皱紧致面膜贴</p>
+                        <p class="p-price">￥<strong>199.00</strong></p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<!--SUI Mobile-->
+<script type='text/javascript' src='/frame/sm.min.js' charset='utf-8'></script>
+<!--轮播-->
+<script type='text/javascript' src='/frame/swipe.js'></script>
+<!--own-->
+<script type='text/javascript' src="/js/newIndex.js"></script>

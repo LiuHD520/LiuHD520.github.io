@@ -1,0 +1,151 @@
+/*** own ***/
+.title {
+  font-size: 0.8rem;
+  font-weight: 400; }
+
+.order-tracking .logistics {
+  margin-top: 0.5rem; }
+  .order-tracking .logistics .logistics-info {
+    background-color: #fff;
+    padding: 0.8rem; }
+    .order-tracking .logistics .logistics-info p {
+      width: 25%;
+      float: left; }
+      .order-tracking .logistics .logistics-info p img {
+        display: block;
+        border: 1px solid #cccccc;
+        width: 100%;
+        height: 4rem; }
+    .order-tracking .logistics .logistics-info ul {
+      width: 75%;
+      list-style: none;
+      float: left;
+      padding-left: 0.4rem; }
+      .order-tracking .logistics .logistics-info ul li {
+        color: #adadad;
+        font-size: 0.6rem;
+        padding-bottom: 0.1rem; }
+        .order-tracking .logistics .logistics-info ul li i {
+          font-style: normal; }
+      .order-tracking .logistics .logistics-info ul li:first-child {
+        font-weight: 500;
+        font-size: 0.68rem;
+        color: #222222; }
+        .order-tracking .logistics .logistics-info ul li:first-child span {
+          color: #11a750; }
+    .order-tracking .logistics .logistics-info::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+  .order-tracking .logistics .logistics-location {
+    padding: 0.6rem 0.8rem;
+    background-color: #ffe6ea;
+    color: #222222;
+    font-size: 0.7rem;
+    font-weight: 500; }
+.order-tracking .minisec {
+  margin-top: 0.8rem;
+  background-color: #fff; }
+  .order-tracking .minisec h4 {
+    width: 100%;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #898989; }
+    .order-tracking .minisec h4 span {
+      float: right;
+      font-size: 0.5rem;
+      position: relative;
+      top: 0.2rem; }
+      .order-tracking .minisec h4 span strong {
+        color: #535353; }
+  .order-tracking .minisec ul {
+    list-style: none;
+    padding: 0.5rem 1.2rem;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2; }
+    .order-tracking .minisec ul li {
+      width: 100%;
+      padding: 0.5rem 0; }
+      .order-tracking .minisec ul li p {
+        float: left;
+        background: #eff8ff;
+        width: 80%;
+        font-size: 0.7rem;
+        padding: 0.3rem 0.5rem;
+        color: #56b8f5;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        -moz-border-radius: 0.3rem;
+        -webkit-border-radius: 0.3rem;
+        border-radius: 0.3rem;
+        position: relative;
+        top: 0.2rem; }
+      .order-tracking .minisec ul li span {
+        float: left;
+        width: 20%; }
+        .order-tracking .minisec ul li span img {
+          float: right;
+          width: 2rem;
+          height: 2rem;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%; }
+      .order-tracking .minisec ul li::after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden; }
+  .order-tracking .minisec h5 {
+    width: 100%;
+    padding: 0.3rem;
+    text-align: center;
+    font-size: 0.65rem;
+    font-weight: 500; }
+.order-tracking .want-to-know {
+  margin-top: 0.4rem;
+  background-color: #fff; }
+  .order-tracking .want-to-know h5 {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.75rem;
+    color: #888888;
+    font-weight: 500; }
+  .order-tracking .want-to-know dl {
+    width: 100%;
+    border-top: 1px solid #f2f2f2; }
+    .order-tracking .want-to-know dl dt {
+      width: 30%;
+      float: left;
+      text-align: center;
+      font-size: 0.7rem;
+      color: #888888;
+      padding: 1.22rem 0; }
+      .order-tracking .want-to-know dl dt p {
+        padding-bottom: 0.3rem; }
+        .order-tracking .want-to-know dl dt p .svgIcon {
+          font-size: 1rem; }
+    .order-tracking .want-to-know dl dd {
+      float: left;
+      width: 70%; }
+      .order-tracking .want-to-know dl dd p {
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 0.7rem;
+        color: #222222;
+        padding: 0.3rem;
+        border-bottom: 1px solid #f2f2f2;
+        border-left: 2px solid #f2f2f2; }
+    .order-tracking .want-to-know dl::after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden; }
+
+/*# sourceMappingURL=logisticsService.css.map */
